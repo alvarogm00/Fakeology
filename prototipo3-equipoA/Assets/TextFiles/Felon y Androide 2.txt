@@ -1,0 +1,436 @@
+
+:: StoryTitle
+D.FELON y I.ANDROIDE SESION 2 VF
+
+:: UserScript[script]
+
+
+:: UserStylesheet[stylesheet]
+
+
+:: Pasaje sin título[START D.NORMAL I.NORMAL]
+Felon: Hola de nuevo doctor.
+Androide: Buenas doctor días.
+Felon: Perdone a mi mujer, desde la ultima vez que la reprograme debí romper su sistema de habla.
+Se ve que te pasaste con los fallos.[[Se ve que te pasaste con los fallos.]]
+¡Hombre! Si son mi amigo Felon y su novia el sistema operativo.[[¡Hombre! Si son mi amigo Felon y su novia el sistema operativo.]]
+Buenas, encantado de conocerles, cuéntenme su situación.[[Buenas, encantado de conocerles, cuéntenme su situación.]]
+Hola buenos días, cuéntenme como ha ido todo.[[B]]
+
+:: Se ve que te pasaste con los fallos.[MAL D.ENFADADO I.FELIZ]
+Felon: Respeto doctor, yo puedo decirlo, pero usted no.
+Androide: Mucho “guzta zeñor”.
+Dios mío, si habla peor que mi primo el gangoso.[[Dios mío, si habla peor que mi primo el gangoso]]
+No pasa nada todos cometemos fallos.[[No pasa nada todos cometemos fallos.]]
+Me ha podido la presión perdone, cuénteme cómo va la cosa.[[B]]
+
+:: ¡Hombre! Si son mi amigo Felon y su novia el sistema operativo.[MAL D.ENFADADO I.SORPRENDIDO]
+Felon: ¿Ha llamado a mi mujer sistema operativo? Espero no haber oído bien o se le va a caer el pelo doctor.
+Androide: Yo no Linux.
+Se la ve avispada sí.[[Se la ve avispada sí.]]
+No señor, me refería a que es muy rápida, solo hay que verla.[[No señor, me refería a que es muy rápida, solo hay que verla.]]
+Perdónenme, no me he levantado con buen pie.[[Perdónenme, no me he levantado con buen pie.]]
+Perdone, quería decir que esta operativa para todo, es un halago.[[Perdone, quería decir que esta operativa para todo, es un halago.]]
+
+:: Buenas, encantado de conocerles, cuéntenme su situación.[MAL D.SORPRENDIDO I.FELIZ]
+Felon: Nos vimos la semana pasada, ¿no se acuerda?
+Androide: “¡yujuuuu!”
+Claro… Si si.[[Claro… Si si.]]
+Es cierto, he tenido mucho lio, disculpen. Cuéntenme cómo va la cosa.[[B]]
+Era broma, claro que me acuerdo. Cuéntenme como ha ido.[[B]]
+No, se me ha olvidado.[[No, se me ha olvidado]]
+
+
+:: B[BIEN D.NORMAL I.NORMAL]
+Felon: Pues mire doctor, lo que nos aconsejó la última vez funcionó, reprograme a mi mujer para que tuviera fallos, lo que pasa es que el problema no se ha solucionado. 
+Ahora ya no me dice lo excelente que soy cada minuto, ahora todo lo que dice no tiene sentido.
+Androide: “brrrr, Anuel”
+Buen gusto musical.[[Buen gusto musical]]
+Que importa eso señor, aunque diga cosas sin sentido, ya no le elogia todo el rato como antes.[[Que importa eso señor, aunque diga cosas sin sentido, ya no le elogia todo el rato como antes.]]
+Bueno quizás hay que encontrarle el sentido a lo que dice.[[Bueno quizás hay que encontrarle el sentido a lo que dice.]]
+
+:: Dios mío, si habla peor que mi primo el gangoso[MAL D.ENFADADO I.ENFADADO]
+Felon: ¿Cómo dice? ¿Esta acaso insultando a mi mujer? Recuerde que si la insulta a ella me insulta a mí, que la he creado.
+Androide: Yo ofendida.
+Se la ve avispada.[[Se la ve avispada.]]
+Para nada, me refería a que me recuerda a mi primo, que es una gran persona.[[Para nada, me refería a que me recuerda a mi primo, que es una gran persona.]]
+Perdonen, continuemos por donde lo dejamos.[[B]]
+Para nada, contarme que tal todo.[[B]]
+
+
+:: No pasa nada todos cometemos fallos.[MAL D.ENFADADO I.SORPRENDIDO]
+Felon: Doctor yo no estoy dentro de ese “todos” que comenta, la reprograme con fallos porque usted me lo dijo.
+Andoide: Fallos no yo.
+Le dije algunos fallos, no que hiciera que no pudiese poner dos palabras juntas.[[Le dije algunos fallos, no que hiciera un remake del cyberbug.]]
+Perdóneme, me refería a que usted lo es todo para todo el mundo.[[Perdóneme, me refería a que usted lo es todo para todo el mundo.]]
+Es verdad, yo se lo dije, cuéntenme que tal todo desde la última vez.[[B]]
+
+:: Se la ve avispada.[MAL D.ENFADADO I.SORPRENDIDO]
+Felon: ¿Como está diciendo? Doctor no me falte al respeto o va a acabar mal...
+Es cierto, perdonen, cuéntenme como va todo.[[B]]
+
+:: Para nada, me refería a que me recuerda a mi primo, que es una gran persona.[MAL D.NORMAL I.NORMAL]
+Felon: No nos importa su primo, como si vende sandias, hemos venido para a hablar de nosotros no de usted.
+Es cierto, perdonen, cuéntenme como va todo.[[B]]
+
+:: Le dije algunos fallos, no que hiciera un remake del cyberbug.[MAL D.ENFADADO I.SORPRENDIDO]
+Felon: Que está diciendo doctor, un poco de profesionalidad o nos iremos ahora mismo.
+Es cierto, perdonen, cuéntenme como va todo.[[B]]
+
+:: Perdóneme, me refería a que usted lo es todo para todo el mundo.[BIEN D.FELIZ I.FELIZ]
+Felon: Gracias “Captain obvious”, ahora dejemos de decir cosas que ya sabemos y centrémonos la terapia.
+Es cierto, cuéntenme como ha ido todo.[[B]]
+
+:: Se la ve avispada sí.[MAL D.ENFADADO I.FELIZ]
+Felon: ¿Cómo? Ha usted no se le ve mucho, sino no se la jugaría tanto sabiendo el poder que poseo.
+Androide: ¡Avispa! “Bzzzz bzzzz”
+Perdóneme, pero con tanto poder, la responsabilidad se le ha olvidado un poco…[[Perdóneme, pero con tanto poder, la responsabilidad se le ha olvidado un poco…]]
+Lo siento, me refería a que se la ve mejor que la última vez.[[Lo siento, me refería a que se la ve mejor que la última vez.]]
+
+:: No señor, me refería a que es muy rápida, solo hay que verla.[MAL D.ENFADADO I.FELIZ]
+Felon: ¿Está utilizando sarcasmo? Ya sabe que me cuesta pillar esas cosas.
+Androide: “¡Piummm!”
+Para nada, se la nota avispada.[[Se la ve avispada sí.]]
+
+
+:: Perdónenme, no me he levantado con buen pie.[MAL D.ENFADADO I.FELIZ]
+Felon: No sé qué tendrá que ver levantarse con buen pie, con insultar a mi mujer.
+Andoide: “¡Mujeeer!”
+Pregúntale a ella que debe haberse levantado con las rodillas.[[Pregúntale a ella que debe haberse levantado con las rodillas.]]
+No perdone, me refería a que se la nota avispada.[[Se la ve avispada sí.]]
+
+:: Perdóneme, pero con tanto poder, la responsabilidad se le ha olvidado un poco…[MAL D.ENFADADO I.FELIZ]
+Felon: Señor está usted sobrepasando mi limite, una más y nos iremos.
+Androide: ¡Spoderman!
+Perdóneme, olvidemos esto y cuéntenme que tal desde a la última sesión.[[B]]
+
+:: Lo siento, me refería a que se la ve mejor que la última vez.[BIEN D.ENFADADO I.FELIZ]
+Felon: Pues será solo usted, con el consejo que nos distes ahora mi mujer no es lo que era.
+Androide: “Brum Brum”
+Bueno intentemos mejorarlo, cuéntenme que tal desde la última vez.[[B]]
+
+:: SE VAN
+Se van
+
+:: Pregúntale a ella que debe haberse levantado con las rodillas.[MAL D.ENFADADO I.FELIZ]
+Felon: Lo primero, no tiene rodillas y lo segundo, deje de hacer comentarios impertinentes o nos iremos.
+Androide: ¡Sándwiiich!
+No perdone, me refería a que se la nota avispada.[[Se la ve avispada sí.]]
+
+:: Claro… Si si.[MAL D.ENFADADO I.FELIZ]
+Felon: No parece que se acuerde doctor, que clase de profesionalidad es esta.
+Androide: “¡Pium pium!”
+¿Usted cree que puedo acordarme de todo?[[No, se me ha olvidado]]
+Era broma, claro que me acuerdo. Cuéntenme como ha ido.[[B]]
+
+
+:: No, se me ha olvidado[MAL D.SORPRENDIDO I.FELIZ]
+Felon: Debería acordarse, es su trabajo.
+Es broma claro que me acuerdo, cuéntenme que tal todo.[[B]]
+
+:: Buen gusto musical[MAL D.ENFADADO I.FELIZ]
+Felon: No se distraiga doctor, no sé ni para que la he traído.
+Androide: “¡Doctooor!”
+Quizás debería apagarla.[[Quizás debería apagarla.]]
+
+:: Que importa eso señor, aunque diga cosas sin sentido, ya no le elogia todo el rato como antes.[MAL D.SORPRENDIDO I.FELIZ]
+Felon: Cómo que no importa doctor, ahora parece que lo ha fabricado Esteban Trabajos. 
+Androide: “¡Manzanaaas!“
+Bueno al menos el murió dignamente…[[Bueno al menos el murió dignamente…]]
+Me refería a que no veo el problema, si usted es el que la ha reprogramado así.[[Me refería a que no veo el problema, si usted es el que la ha reprogramado así.]]
+Bueno tampoco le insulte, el supo retirarse a tiempo.[[Bueno al menos el murió dignamente…]]
+Es verdad, hemos pasado de un problema pequeño a uno muy gordo.[[Es verdad, hemos pasado de un problema pequeño a uno muy gordo.]]
+
+
+:: Bueno quizás hay que encontrarle el sentido a lo que dice.[BIEN D.SORPRENDIDO I.NORMAL]
+Felon: No sé qué sentido le quiere encontrar, eso no solucionaría nada.
+Androide: He cerrado el coche? 
+Hay muchos sentidos detrás de lo que dice señor.[[Hay muchos sentidos detrás de lo que dice señor.]]
+Quizás ella solo busca que la escuchen.[[Quizás ella solo busca que la escuchen.]]
+Quizás es para llamar la atención.[[Quizás es para llamar la atención.]]
+
+
+:: Perdone, quería decir que esta operativa para todo, es un halago.[MAL D.NORMAL I.FELIZ]
+Felon: Un halago de muy mal gusto doctor, espero que no tenga más guardados o le juro que nos iremos.
+Androide: Halagada yo.
+Halagos no, pero chistes de madr…[[Halagos no, pero chistes de madr…]]
+No perdone, me refería a que se la nota avispada.[[Se la ve avispada sí.]]
+
+:: Halagos no, pero chistes de madr…[MAL D.ENFADADO I.FELIZ]
+Felon: Ya está, nos vamos.
+Androdie: ¡Chistezz!
+Se van.[[SE VAN]]
+
+:: Quizás debería apagarla.[MAL D.ENFADADO I.FELIZ]
+Felon: ¿Apagarla? Doctor ella tiene los mismos derechos que cualquier habitante. Quizás debería apagarle a usted…
+Androide: ¡A pagar!
+Quizás lo que se ha acabado es la chispa del amor entre los dos.[[Quizás lo que se ha acabado es la chispa del amor entre los dos.]]
+Me refería a que quizás así podríamos hablar sin que nos molestase.[[Me refería a que quizás así podríamos hablar sin que nos molestase.]]
+Perdone, he dicho lo primero que se me ha venido a la cabeza, no iba en serio.[[Perdone, he dicho lo primero que se me ha venido a la cabeza, no iba en serio.]]
+
+:: Quizás lo que se ha acabado es la chispa del amor entre los dos.[MAL D.SORPRENDIDO I.FELIZ]
+Felon: Es imposible, le programe los sentimientos para que nunca dejara de quererme, denos una solución y déjese de banalidades.
+Androide: “La vida es una caja de bombones”
+No ha pensado que no importa que diga cosas sin sentido, así ya no le da la brasa todo el día.[[Que importa eso señor, aunque diga cosas sin sentido, ya no le elogia todo el rato como antes.]]
+Bueno quizás hay que encontrarle el sentido a lo que dice.[[Bueno quizás hay que encontrarle el sentido a lo que dice.]]
+
+:: Me refería a que quizás así podríamos hablar sin que nos molestase.[MAL D.ENFADADO I.FELIZ]
+Felon: Si mi mujer es una molestia dígalo de una vez y nos marchamos. Sino denos una solución.
+Androide: “La vida es una caja de bombones”
+No ha pensado que no importa que diga cosas sin sentido, así ya no le da la brasa todo el día.[[Que importa eso señor, aunque diga cosas sin sentido, ya no le elogia todo el rato como antes.]]
+Bueno quizás hay que encontrarle el sentido a lo que dice.[[Bueno quizás hay que encontrarle el sentido a lo que dice.]]
+
+:: Perdone, he dicho lo primero que se me ha venido a la cabeza, no iba en serio.[MAL D.SORPRENDIDO I.NORMAL]
+Felon: No es propio de un profesional decir lo primero que se le venga a la cabeza, denos una solución.
+Quizás lo que se ha acabado es la chispa del amor entre los dos.[[Quizás lo que se ha acabado es la chispa del amor entre los dos.]]
+Me refería a que quizás así podríamos hablar sin que nos molestase.[[Me refería a que quizás así podríamos hablar sin que nos molestase.]]
+
+:: Bueno al menos el murió dignamente…[MAL D.ENFADADO I.FELIZ]
+Felon: Un poco de respeto doctor, no estamos aquí para hablar de terceras personas, sino de nosotros.
+Androide: “¡Nozotrooos!”
+Por favor que alguien al desenchufe.[[Por favor que alguien al desenchufe.]]
+Perdone, me refería a que no veo el problema, si usted es el que la ha reprogramado así.[[Me refería a que no veo el problema, si usted es el que la ha reprogramado así.]]
+Es verdad, hemos pasado de un problema pequeño a uno muy gordo.[[Es verdad, hemos pasado de un problema pequeño a uno muy gordo.]]
+
+
+:: Me refería a que no veo el problema, si usted es el que la ha reprogramado así.[MAL D.ENFADADO I.FELIZ]
+Felon: Pues si no ve el problema debe estar ciego.
+Androide: “Ave maría purísima”.
+Sin pecado concebido.[[Sin pecado concebido.]]
+Quizás tendría que escucharla más y así ella se acostumbraría a decir cosas normales.[[Quizás tendría que escucharla más y así ella se acostumbraría a decir cosas normales]]
+Bueno quizás hay que encontrarle el sentido a lo que dice.[[Bueno quizás hay que encontrarle el sentido a lo que dice.]]
+
+
+:: Es verdad, hemos pasado de un problema pequeño a uno muy gordo.[BIEN D.SORPRENDIDO I.ENFADADO]
+Felon: Pues si doctor, aunque ese no es el problema real que me preocupa.
+Androide: Gordo tu.
+Uy, cállese hojalata o la mando para el desguace.[[Sin pecado concebido.]]
+¿No le preocupa? Pues es bastante grave por lo que veo.[[¿No le preocupa? Pues es bastante grave por lo que veo.]]
+
+:: Por favor que alguien al desenchufe.[D.ENFADADO MAL I.FELIZ]
+Felon: ¿Cómo ha dicho? Vámonos ahora mismo cariño, este señor no sabe de respeto.
+Androide: ¿”Desenque”?
+se van.[[SE VAN]]
+
+:: Sin pecado concebido.[MAL D.ENFADADO I.FELIZ]
+Felon: Por favor no la siga el juego y céntrese en buscar una solución.
+Androide: ¡Sigueme y te sigo mami, pa la rumba que nos vamos!
+Quizás tendría que escucharla más y así ella se acostumbraría a decir cosas normales.[[Quizás tendría que escucharla más y así ella se acostumbraría a decir cosas normales]]
+Bueno quizás hay que encontrarle el sentido a lo que dice.[[Bueno quizás hay que encontrarle el sentido a lo que dice.]]
+
+
+:: Quizás tendría que escucharla más y así ella se acostumbraría a decir cosas normales[BIEN D.NORMAL I.SORPRENDIDO]
+Felon: Ya lo he intentado, pero sigue a su bola ¡Es insoportable!
+Adroide: Soy portable.
+Bueno quizás hay que encontrarle el sentido a lo que dice.[[Bueno quizás hay que encontrarle el sentido a lo que dice.]]
+
+:: ¿No le preocupa? Pues es bastante grave por lo que veo.[BIEN D.NORMAL I.ENFADADO]
+Felon: No me preocupa, lo único que hace es decir cosas sin sentido.
+ Bueno quizás hay que encontrarle el sentido a lo que dice.[[Bueno quizás hay que encontrarle el sentido a lo que dice.]]
+
+:: Hay muchos sentidos detrás de lo que dice señor.[MAL D.SORPRENDIDO I.ENFADADO]
+Felon: Pero si lo único que hace es repetir cosas o soltar referenciarse constantemente a cosas que no entiendo.
+Androide: EA Sports it's in the game!
+Quizás ella solo busca que la escuchen.[[Quizás ella solo busca que la escuchen.]]
+Quizás es para llamar la atención.[[Quizás es para llamar la atención.]]
+
+:: Quizás ella solo busca que la escuchen.[BIEN D.SORPRENDIDO I.ENFADADO]
+Felon: La estoy escuchando todo el día y no hace más que ponerme la cabeza como un bombo ¡Estoy harto!
+Androide: Manolo perdió su bombo.
+No me recuerdes esa pérdida…[[No me recuerdes esa pérdida…]]
+Quizás debería intentar ser menos irascible, se trata de su mujer.[[Quizás debería intentar ser menos irascible, se trata de su mujer.]]
+Quizás es para llamar la atención.[[Quizás es para llamar la atención.]]
+Bueno miremos el lado positivo, el ultimo problema se solucionó.[[C]]
+
+
+:: Quizás es para llamar la atención.[BIEN D.SORPRENDIDO I.NORMAL]
+Felon: Para que quiere llamar mi atención si solo estoy para ella. Es estúpida esa conclusión. 
+Androide: Anivia es mi campeón favorito.
+Bueno miremos el lado positivo, el ultimo problema se solucionó.[[C]]
+
+:: No me recuerdes esa pérdida…[MAL D.ENFADADO I.ENFADADO]
+Felon: De que está hablando doctor, no la haga caso y denos una solución.
+Androide: Más que el carro…
+Quizás debería intentar ser menos irascible, se trata de su mujer.[[Quizás debería intentar ser menos irascible, se trata de su mujer.]]
+Quizás es para llamar la atención.[[Quizás es para llamar la atención.]]
+Bueno miremos el lado positivo, el ultimo problema se solucionó.[[C]]
+
+:: Quizás debería intentar ser menos irascible, se trata de su mujer.[MAL D.NORMAL I.ENFADADO+ I.ENFADADO]
+Felon: Mire doctor no sabe lo que aguanto ya en el día a día. Aun así, ese no es el problema mayor.
+Androide: Anivia es mi campeón favorito.
+Bueno miremos el lado positivo, el ultimo problema se solucionó.[[C]]
+
+:: C[BIEN D.NORMAL I.FELIZ]
+Felon: Ese es el mayor problema, aunque ahora y no me esta elogiando, sigue teniendo actitudes que me molestan. Siempre me hace sentir que soy perfecto.
+Androide: ¡En pie señoría!
+Entiendo, esto le molesta ya que no está acostumbrado.[[Entiendo, esto le molesta ya que no está acostumbrado.]]
+Pero si no se lo dice con palabras, ¿Cuál es el problema?[[Pero si no se lo dice con palabras, ¿Cuál es el problema?]]
+Necesitaría más ejemplos.[[SIGUIENTE PREMISA]]
+
+
+:: Entiendo, esto le molesta ya que no está acostumbrado.[MAL D.ENFADADO I.FELIZ]
+Felon: Claro que estoy acostumbrado, todo el mundo sabe que soy el mejor. Pero mi mujer es demasiado.
+Necesitaría más ejemplos.[[SIGUIENTE PREMISA]]
+
+:: Pero si no se lo dice con palabras, ¿Cuál es el problema?[BIEN D.NORMAL I.FELIZ]
+Felon: Da igual que no lo diga con palabras, sus actitudes son inaguantables
+Androide: “Aguita”
+Necesitaría más ejemplos.[[SIGUIENTE PREMISA]]
+
+:: SIGUIENTE PREMISA[BIEN D.NORMAL I.ENFADADO]
+A Felon: Mire doctor, el problema de los halagos se ha solucionado, sin embargo, ella no se comporta como debería. El otro día traje a 10 amigas a mi casa para ver como actuaba y en vez de ponerse celosa, las servía y las trataba de la mejor forma posible. ¡Ya no aguanto más! 
+Androide: ...
+Mira que invitas…[[Mira que invitas…]]
+Podríamos buscar la forma de poner celosa a su mujer.[[Podríamos buscar la forma de poner celosa a su mujer.]]
+Debería buscarse una mujer nueva.[[Debería buscarse una mujer nueva.]]
+Quizás habría que re-reprogramarla de nuevo.[[Quizás habría que re-reprogramarla de nuevo.]]
+
+:: Mira que invitas…[MAL D.ENFADADO I.ENFADADO]
+ Felon: ¿Cómo? Doctor a que viene ese comentario, le estoy contando mi problema y usted solo piensa en eso.
+Perdone, pero lo de las 10 amigas me ha distraído.[[Perdone, pero lo de las 10 amigas me ha distraído.]]
+No, me refería a que quizás si me invitase podría ver el problema más de cerca.[[No, me refería a que quizás si me invitase podría ver el problema más de cerca.]]
+Era para bajar la tensión en el ambiente, perdóneme.[[Era para bajar la tensión en el ambiente, perdóneme.]]
+
+
+:: Podríamos buscar la forma de poner celosa a su mujer.[BIEN I.ENFADADO D.NORMAL]
+Felon: Si no se puso celosa el otro día, no sé con qué lo hará, ¿Qué propone?
+Podría hacer otra fiesta. traer a más amigas e invitarme.[[Podría hacer otra fiesta. traer a más amigas e invitarme.]]
+Podría buscar otro robot que se le parezca, quizás no siente celos porque no son de su especie.[[Podría buscar otro robot que se le parezca, quizás no siente celos porque no son de su especie.]]
+Quizás ella no entiende realmente lo que es el amor y por eso no tiene celos.[[Quizás ella no entiende realmente lo que es el amor y por eso no tiene celos.]]
+
+
+:: Debería buscarse una mujer nueva.[BIEN I.ENFADADO D.ENFADADO]
+Felon: ¿Cómo que buscar una nueva mujer? Esto no es Iphone que se rompe y me compro otro nuevo doctor. Mi mujer tiene sentimientos y quedaría destrozada.
+Destrozada o encantada quien sabe.[[Destrozada o encantada quien sabe.]]
+Tendría que cambiar el punto de vista, quizás es lo que quiere ella.[[Tendría que cambiar el punto de vista, quizás es lo que quiere ella.]]
+Si la quieres, déjala libre.[[Si la quieres, déjala libre.]]
+Ella quizás no le ve como lo que es.[[Ella quizás no le ve como lo que es.]]
+
+:: Quizás habría que re-reprogramarla de nuevo.[MAL I.ENFADADO D.ENFADADO]
+Felon: ¿Quiere darme la misma solución que me dio la ultima vez? Si es así no se para que le pago.
+Pues págueme más que mira que es rata.[[Pues págueme más que mira que es rata]]
+Quizás le sale más a cuento hacerla de nuevo.[[Quizás le sale más a cuento hacerla de nuevo.]]
+Quizás debería buscarse una mujer nueva y así no tendría que reprogramarla.[[Debería buscarse una mujer nueva.]]
+
+
+:: Perdone, pero lo de las 10 amigas me ha distraído.[MAL I.ENFADADO D.SORPRENDIDO]
+Felon: Menudo falta de profesionalidad doctor, deme una solución o me iré.
+No, me refería a que quizás si me invitase podría ver el problema más de cerca.[[No, me refería a que quizás si me invitase podría ver el problema más de cerca.]]
+Era para bajar la tensión en el ambiente, perdóneme.[[Era para bajar la tensión en el ambiente, perdóneme.]]
+
+
+:: No, me refería a que quizás si me invitase podría ver el problema más de cerca.[MAL I.ENFADADO D.ENFADADO]
+Felon: No le hace falta verlo de cerca, el problema es el que es y usted debe solucionarlo, para eso le pagamos.
+Bueno, pagar me paga usted, su señora dudo que pueda ni trabajar en la once.[[Bueno, pagar me paga usted, su señora dudo que pueda ni trabajar en la once.]]
+Quizás así podría ver en que comportamientos falla realmente y como solucionarlo.[[Quizás así podría ver en que comportamientos falla realmente y como solucionarlo]]
+Era para bajar la tensión en el ambiente, perdóneme.[[Era para bajar la tensión en el ambiente, perdóneme.]]
+
+
+:: Era para bajar la tensión en el ambiente, perdóneme.[BIEN I.ENFADADO D.FELIZ]
+Felon: La verdad que estaba todo un poco tenso, aun así, deme una solución por favor.
+quizás podríamos buscar la forma de poner celosa a su mujer.[[Podríamos buscar la forma de poner celosa a su mujer.]]
+quizás debería buscarse una mujer nueva.[[Debería buscarse una mujer nueva.]]
+Quizás habría que re-reprogramarla de nuevo.[[Quizás habría que re-reprogramarla de nuevo.]]
+
+
+:: Bueno, pagar me paga usted, su señora dudo que pueda ni trabajar en la once.[MAL I.ENFADADO D.ENFADADO]
+Felon: ¿En la once? Doctor que está diciendo, ya estoy cansado, deme una solución o me las pagara, se lo advierto.
+Era para bajar la tensión en el ambiente, perdóneme.[[Era para bajar la tensión en el ambiente, perdóneme.]]
+Es cierto, quizás podríamos buscar la forma de poner celosa a su mujer.[[Podríamos buscar la forma de poner celosa a su mujer.]]
+Es cierto, quizás debería buscarse una mujer nueva.[[Debería buscarse una mujer nueva.]]
+Quizás habría que re-reprogramarla de nuevo.[[Quizás habría que re-reprogramarla de nuevo.]]
+
+:: Quizás así podría ver en que comportamientos falla realmente y como solucionarlo[MAL I.ENFADADO D.ENFADADO]
+Felon: Es usted un interesado, usted debería solucionarlo sin tener que venir a mi casa.
+Es cierto, quizás podríamos buscar la forma de poner celosa a su mujer.[[Podríamos buscar la forma de poner celosa a su mujer.]]
+Es cierto, quizás debería buscarse una mujer nueva.[[Debería buscarse una mujer nueva.]]
+Quizás habría que re-reprogramarla de nuevo.[[Quizás habría que re-reprogramarla de nuevo.]]
+
+:: Podría hacer otra fiesta. traer a más amigas e invitarme.[MAL I.ENFADADO D.SORPRENDIDO]
+Felon: ¿Qué? Por favor doctor, que está diciendo. Deje de decir estupideces y deme una solución.
+Podría buscar otro robot que se le parezca, quizás no siente celos porque no son de su especie.[[Podría buscar otro robot que se le parezca, quizás no siente celos porque no son de su especie.]]
+Quizás ella no entiende realmente lo que es el amor y por eso no tiene celos.[[Quizás ella no entiende realmente lo que es el amor y por eso no tiene celos.]]
+
+
+:: Podría buscar otro robot que se le parezca, quizás no siente celos porque no son de su especie.[MAL I.ENFADADO D.ENFADADO]
+Felon: ¿Cómo que de su especie? Mi mujer es exactamente igual que usted y que yo, no se ha que ha venido ese comentario.
+Como yo no, desde luego, si usted se considera cafetera…[[Como yo no desde luego, si usted se considera cafetera…]]
+Me refiero a que ella no es tan compleja como la mente de un ser vivo.[[Me refiero a que ella no es tan compleja como la mente de un ser vivo.]]
+Me refiero a que ella no siente lo mismo que nosotros.[[Me refiero a que ella no siente lo mismo que nosotros.]]
+
+:: Quizás ella no entiende realmente lo que es el amor y por eso no tiene celos.[BIEN I.ENFADADO D.SORPRENDIDO]
+Felon: Es cierto, quizás no ha entendido el amor como lo entendemos nosotros, ya que yo la programe de manera que aprendiese por si misma, no con los sentimientos ya establecidos.
+Claro[[Claro]]
+
+:: Como yo no desde luego, si usted se considera cafetera…[MAL I.ENFADADO D.ENFADADO]
+Felon: ¿Ha llamado a mi mujer cafetera? Ya está, me marcho.
+Se van.[[SE VAN]]
+
+:: Me refiero a que ella no es tan compleja como la mente de un ser vivo.[MAL I.ENFADADO D.SORPRENDIDO]
+Felon: Perdóneme doctor, ella es incluso más compleja que un ser vivo, yo mismo la cree, no puede ser de otra manera.
+Quizás ella no entiende realmente lo que es el amor y por eso no tiene celos.[[Quizás ella no entiende realmente lo que es el amor y por eso no tiene celos.]]
+
+
+:: Me refiero a que ella no siente lo mismo que nosotros.[BIEN I.ENFADADO D.SORPRENDIDO]
+Felon: Ella siente lo mismo que nosotros ya que la programe yo mismo. 
+Quizás ella no entiende realmente lo que es el amor y por eso no tiene celos.[[Quizás ella no entiende realmente lo que es el amor y por eso no tiene celos.]]
+
+:: Claro[bien I.ENFADADO D.FELIZ]
+Felon: Pero eso no importa, ella ha estado conmigo todo este tiempo, debería sentir el amor. Es una tontería lo que dice, deme otra solución.
+Quizás debería buscarse una mujer nueva.[[Debería buscarse una mujer nueva.]]
+Quizás habría que re-reprogramarla de nuevo.[[Quizás habría que re-reprogramarla de nuevo.]]
+
+:: Destrozada o encantada quien sabe.[MAL I.ENFADADO D.ENFADADO]
+Felon: ¿Encantada? ¿Está sugiriendo que no me quiere? 
+Sugiriendo no sería la palabra.[[Sugiriendo no sería la palabra.]]
+Para nada, me refiero a que quizás ella no quiere lo mismo.[[Para nada, me refiero a que quizás ella no quiere lo mismo.]]
+Quizás debería preguntarla que quiere hacer.[[Quizás debería preguntarla que quiere hacer.]]
+
+
+:: Tendría que cambiar el punto de vista, quizás es lo que quiere ella.[BIEN I.ENFADADO D.NORMAL]
+Felon: Ella quiere estar conmigo, por eso está todo el rato a mi lado.
+Cuando se quiere a alguien hay que dejarlo libre.[[Si la quieres, déjala libre.]]
+Quizás ella no le ve como lo que es.[[Ella quizás no le ve como lo que es.]]
+
+
+:: Si la quieres, déjala libre.[MAL I.ENFADADO D.ENFADADO]
+Felon: ¿Está diciendo que vive conmigo por obligación? Doctor vengo aquí para que me ayude, no para que me insulte.
+Me refiero a que, quizás ella, no le ve como lo que es.[[Ella quizás no le ve como lo que es.]]
+
+
+:: Ella quizás no le ve como lo que es.[BIEN I.ENFADADO D.SORPRENDIDO]
+Felon: ¿Está diciendo que, al ser una creación mía, ella solo viene a mi porque soy su creador? ¿Eso quiere decir que ello no viene conmigo, por la grandeza de mi persona, sino porque mi grandeza la ha creado?
+No lo hubiera dicho así, pero sí.[[No lo hubiera dicho así, pero sí.]]
+
+:: Sugiriendo no sería la palabra.[MAL I.ENFADADO D.ENFADADO]
+Felon: ¿Afirmando? Me está cansando ya doctor.
+Para nada, me refiero a que quizás ella no quiere lo mismo.[[Para nada, me refiero a que quizás ella no quiere lo mismo.]]
+Quizás debería preguntarla que quiere hacer.[[Quizás debería preguntarla que quiere hacer.]]
+
+
+:: Para nada, me refiero a que quizás ella no quiere lo mismo.[BIEN I.ENFADADO D.NORMAL]
+Felon: Claro que quiere lo mismo, esta todo el día atenta a como estoy, me adora doctor.
+Cuando se quiere a alguien hay que dejarlo libre.[[Si la quieres, déjala libre.]]
+Quizás ella no le ve como lo que es.[[Ella quizás no le ve como lo que es.]]
+
+:: Quizás debería preguntarla que quiere hacer.[MAL I.ENFADADO D.SORPRENDIDO]
+Felon: ¿Se le ha olvidado como habla? Ahora mismo no se la puede preguntar nada, busque otra solución.
+Es verdad, tal vez debería cambiar el punto de vista, ella quizás no quiere los mismo que usted.[[Tendría que cambiar el punto de vista, quizás es lo que quiere ella.]]
+Es verdad, tal vez deberías dejarla libre.[[Si la quieres, déjala libre.]]
+Es verdad, ella quizás no le ve como lo que es.[[Ella quizás no le ve como lo que es.]]
+
+
+:: No lo hubiera dicho así, pero sí.[BIEN I.ENFADADO D.FELIZ]
+Felon: Entonces debería buscar una mujer que me quiera por lo perfecto que soy y no porque yo la haya hecho tan perfecta de quererme. Es usted un gigante doctor, ya no volveré más, tengo un nuevo rumbo.
+Parece que nos hemos quedado sin más tiempo[[FIN]]
+
+:: FIN
+Fin da la sesion
+
+:: Pues págueme más que mira que es rata[MAL I.ENFADADO D.SORPRENDIDO]
+Felon: ¿Cómo dice? Le pago a usted muchísimo más de lo que debería, no me esta dando soluciones a nada y además su última recomendación dejo sin habla a mi mujer.
+Quizás debería buscarse una mujer nueva y así no tendría que reprogramarla.[[Debería buscarse una mujer nueva.]]
+
+:: Quizás le sale más a cuento hacerla de nuevo.[I.ENFADADO MAL D.ENFADADO]
+Felon: Hable con propiedad doctor y no la trate como un objeto o lo lamentará.
+Quizás debería buscarse una mujer nueva y así no tendría que reprogramarla.[[Debería buscarse una mujer nueva.]]

@@ -1,0 +1,143 @@
+:: StoryTitle
+Dos orcos. Sesion 1
+
+:: UserScript[script]
+
+
+:: UserStylesheet[stylesheet]
+
+
+:: Untitled Passage[START]
+Entran dos orcos a la consulta y se sientan
+Ostias no sabia que mi consulta era una dungeon [[Ostias no sabia que mi consulta era una dungeon]]
+Sacas discretamente tu hacha de bolsillo [[Sacas discretamente tu hacha de bolsillo]]
+Buenos dias señor y señora... Cortaorejas? [[Dialogo 2]]
+Hombre Antonio, que tal? [[Hombre Antonio, que tal?]]
+
+:: Ostias no sabia que mi consulta era una dungeon[MAL D.SORPRENDIDO I.ENFADADO]
+Orco: Te has levantado gracioso hoy o que? 
+Orca: En fin...
+Ehh, perdon perdon, por favor no me quemeis la casa [[Dialogo 2]] 
+No se puede ni hacer un chiste... [[Dialogo 2]] 
+La verdad es que si, anoche me vi el club de la comedia [[La verdad es que si, anoche me vi el club de la comedia]]
+Joe con las alegrias de la huerta... [[Dialogo 2]] 
+
+:: Sacas discretamente tu hacha de bolsillo[MAL I.NORMAL D.SORPRENDIDO]
+Orco: Tampoco te pongas dramático, que hoy llevo el hacha de adorno.
+Orca: Yo no...
+Un acto reflejo, lo siento [[Dialogo 2]] 
+Bueno bueno nunca se sabe [[Dialogo 2]] 
+Je, la dejo aqui por si acaso jejejee [[Dialogo 2]]
+Como si tuvieseis alguna oportunidad contra mi [[Dialogo 2]] 
+
+:: Dialogo 2[D.NORMAL I.NORMAL]
+Bueno bueno, que os trae por aqui?
+Orco: Esto ha sido idea de mi señora. 
+Orca: Nooo, esto fue idea de los dos. La cosa es la siguiente, siento que Claudio y yo ya no nos entendemos como antes. 
+Habéis probado a hablar mas despacio? [[Habéis probado a hablar mas despacio?]]
+De alguna manera os entenderíais antes no? [[Dialogo 3]]
+Como no os vais a entender si sois los dos orcos [[Como no os vais a entender si sois los dos orcos]]
+No sera para tanto... [[No sera para tanto...]]
+
+:: Hombre Antonio, que tal?[MAL D.SORPRENDIDO I.SORPRENDIDO]
+Orco: Quien coño es Antonio?
+Quedarte callado como si no pasase nada [[Dialogo 2]] 
+Ehhh, perdon es que hoy no me he puesto las lentillas [[Dialogo 2]] 
+(Hacer como que hablas por teléfono) Perdon Antonio que han entrado unos pacientes [[(Hacer como que hablas por teléfono) Perdon Antonio que han entrado unos pacientes]]
+No se, dimelo tu [[Dialogo 2]] 
+
+:: La verdad es que si, anoche me vi el club de la comedia[MAL I.ENFADADO D.ENFADADO]
+Orco: Por eso no tienes ni puta gracia
+Ouch [[Dialogo 2]] 
+
+:: (Hacer como que hablas por teléfono) Perdon Antonio que han entrado unos pacientes[BIEN D.ENFADADO I.SORPRENDIDO]
+Orca: Este señor es tonto verdad?
+Orco: Yo ya no se que pensar
+Colgar el telefono [[Dialogo 2]] 
+
+:: Habéis probado a hablar mas despacio?[MAL I.ENFADADO D.NORMAL]
+Orco: Teeee reeeefiiiiieeereeees assiiiiiii?
+Orca: Claudio por favor...
+JAJAJAJAJA [[Dialogo 3]] 
+Si si justo asi [[Dialogo 3]] 
+Otra pequeña broma [[Dialogo 3]] 
+Jamas pense que picaría [[Dialogo 3]] 
+
+:: Dialogo 3[D.NORMAL I.NORMAL]
+A que os referís exactamente con "Ya no nos entendemos como antes"?
+Orco: Muy simple. Nos conocimos durante una saqueo a una aldea. Era lo que mas nos gustaba hacer. Yo como buen orco, he seguido con la tradición de saquear aldeas por las tardes, pero ahora resulta que a ella ya no le apetece. 
+Orca: No es que no me apetezca, es que me parece que en pleno siglo 22, saquear aldeas es algo anticuado y retrógrado. Hay que actualizarse Claudio. 
+Un saqueo es un sitio un poco raro para conocerse no? [[Un saqueo es un sitio un poco raro para conocerse no?]]
+La verdad es que saquear si que esta un poco pasado de moda [[La verdad es que saquear si que esta un poco pasado de moda]]
+Pero acaso lo anticuado no se llama ahora vintage y si esta de moda? [[Pero acaso lo anticuado no se llama ahora vintage y si esta de moda?]]
+A lo mejor podemos llegar a algun tipo de acuerdo en cuanto a saqueos se refiere... [[Dialogo 4]]
+
+:: Como no os vais a entender si sois los dos orcos[BIEN I.NORMAL D.FELIZ]
+Orco: Eso digo yo, pero ella sigue ahí ofuscada en lo suyo. 
+Orca: No se cuantas veces tengo que explicartelo
+Mujeres ehhh... [[Dialogo 3]] 
+Orcos ehhh... [[Dialogo 3]] 
+Bueno tampoco hace falta enfadarse [[Dialogo 3]] 
+Quedarse calladon expectante [[Dialogo 3]] 
+
+:: No sera para tanto...[MAL D.NORMAL I.ENFADADO]
+Orca: Uy que no, para esto no te pagamos ehh
+Orco: Cariño deja el señor que hable
+(Por lo bajini) Todavía no me habéis pagado [[Dialogo 3]] 
+Eso dejad al profesional que haga lo suyo [[Dialogo 3]] 
+A ver a ver que yo no estoy opinando [[Dialogo 3]] 
+Bueeeeeeeeeeeeno [[Dialogo 3]] 
+
+:: Un saqueo es un sitio un poco raro para conocerse no?[MAL D.FELIZ I.NORMAL]
+Orco: Para nada! Es donde se conocieron mis padre
+Orca: Ves como está anticuado...
+Una vez yo conocía a una chica en la discoteca saqueo [[Dialogo 4]] 
+Puede que sea anticuado, pero seguro que se puede hacer algo al respecto [[Dialogo 4]] 
+Si es tradición, tampoco lo veo un problema... [[Dialogo 4]] 
+A lo mejor si es un poco anticauado [[Dialogo 4]] 
+
+:: La verdad es que saquear si que esta un poco pasado de moda[MAL D.ENFADADO I.NORMAL]
+Orco: Sabia yo que no era buena idea venir aquí...
+Eh! Solo es una opinión! [[Dialogo 4]] 
+Sinceramente lo de matar gente por placer es un poco cuestionable [[Dialogo 4]] 
+Eh, quien sabe, lo mismo me convences de que no es anticuado [[Dialogo 4]] 
+Yo no estoy de parte de nadie... [[Dialogo 4]] 
+
+:: Pero acaso lo anticuado no se llama ahora vintage y si esta de moda?[BIEN D.FELIZ I.SORPRENDIDO]
+Orco: Ea ea, eso digo yo.
+Orca: Madre mia vaya par..
+Viva lo vintage! [[Dialogo 4]] 
+Es solo mi humilde opinión [[Dialogo 4]]
+Que no estoy de parte de nadie eh, pero lo vintage... [[Dialogo 4]] 
+Bueno, de vuelta al tema que nos ocupa [[Dialogo 4]] 
+
+:: Dialogo 4[D.NORMAL I.NORMAL]
+La cosa es que obviamente tenéis opiniones contrarias, así que podríamos buscar un punto medio
+Orca: Osea que estas a favor de matar a gente asi porque si
+Orco: Ay señor...
+Señora, que matar gente es VUESTRA TRADICIÓN [[Señora, que matar gente es VUESTRA TRADICIÓN]]
+No digo eso, digo pensar alguna manera de llegar a un acuerdo [[No digo eso, digo pensar alguna manera de llegar a un acuerdo]]
+Mira, lo que tu digas, pero pensad en lo que he dicho [[Mira, lo que tu digas, pero pensad en lo que he dicho]]
+Te entiendo un poco Claudio [[Te entiendo un poco Claudio]]
+
+:: Señora, que matar gente es VUESTRA TRADICIÓN[D.FELIZ I.ENFADADO BIEN]
+Orco: GRACIAS
+Orca: No se para que me gasto el dinero en esto!
+Orco: Mari relajate, pensaremos en lo que ha dicho doctor
+Se van
+
+:: No digo eso, digo pensar alguna manera de llegar a un acuerdo[D.NORMAL I.NORMAL]
+Orco: hmm, no se yo, pero bueno algo podemos pensar.
+Orca: Bueno, parece que podemos sacar algo de aqui
+Se van
+
+:: Mira, lo que tu digas, pero pensad en lo que he dicho[D.NORMAL I.SORPRENDIDA MAL]
+Orca: Uf, esto me suena a que va a volver a asquear igual.
+Orco: Mari vamos a intentar pensar algo aunque sea.
+Orca: Ya ya, ya veras como al final todo sigue igual
+
+:: Te entiendo un poco Claudio[D.NORMAL I.ENFADADO]
+Orca: Que has dicho??
+Orco: Shh, deja deja no ha dicho nada
+Orca: Al final te saqueo la consulta
+Orco: MARI! Vamonos anda, pensaremos en ello doctor

@@ -1,0 +1,194 @@
+:: StoryTitle
+D.FELON Y I.ANDROIDE 1
+
+:: UserScript[script]
+
+
+:: UserStylesheet[stylesheet]
+
+
+:: Pasaje sin título[START]
+Felon: Hola, buenos días. 
+¡¡Dios mio eres Felon Kusk!![[¡¡Dios mio eres felon kusk!!]]
+Hola encantado de recibirles, pasen.[[Diálogo 2B]]
+Buenas encantado, cuéntenme su situación.[[Buenas encantado, cuéntenme su situación]]
+Hola.[[Diálogo 2D]]
+
+:: ¡¡Dios mio eres felon kusk!![MAL D.ENFADADO I.NORMAL]
+Felon: Por favor un poco de discreción, ¿usted quiere que me maten?
+A claro, que eres la persona mas odiada de la tierra.[[A claro, que eres la persona mas odiada de la tierra.]]
+Perdone, no he tenido una buena mañana[[Diálogo 2A]]
+Me ha podido la presión, perdone.[[Diálogo 2A]]
+Perdone, no me acordaba que venía de incognito.[[Diálogo 2A]]
+
+
+:: Diálogo 2B[BIEN D.ENFADADO I.SORPRENDIDO]
+Felon: Pues como ya le comentamos, mi mujer aquí presente sigue adulándome en todas las cosas que hago, ya sea levantarme de la cama o beber agua. ¡Es insoportable!
+Entiendo.[[Diálogo 2]]
+
+:: Buenas encantado, cuéntenme su situación[MAL D.SORPRENDIDO]
+Felon: Nos vimos la semana pasada, ¿no se acuerda?
+Claro… Si si.[[Claro… Si si]]
+Es cierto, he tenido mucho lio, discúlpenme.[[Diálogo 2C]]
+Era broma, claro que me acuerdo.[[Diálogo 2C]]
+No, se me ha olvidado.[[claro que me acuerdo, pero si pudierais refrescarme la mente.]]
+
+:: Diálogo 2D[BIEN D.SORPRENDIDO I.SORPRENDIDO]
+Felon: Se le nota cortante doctor, bueno no podemos perder más tiempo. Como ya le comentamos, mi mujer aquí presente sigue adulándome en todas las cosas que hago, ya sea levantarme de la cama o beber agua. ¡Es insoportable!
+Entiendo.[[Diálogo 2]]
+
+:: A claro, que eres la persona mas odiada de la tierra.[MAL D.ENFADADO I.NORMAL]
+Felon: Eso ha sido muy desafortunado por su parte doctor, recuerde que aún tengo mucho poder.
+Claro si, poder…[[Claro si, poder…]]
+No volverá a pasar, cuéntenme que les ocurre.[[Buenas encantado, cuéntenme su situación]]
+Perdone, continuemos por donde lo dejamos.[[Diálogo 2A]]
+Ya lo se señor, sabe todo lo que le aprecio, continuemos por donde lo dejamos.[[Diálogo 2A]]
+
+
+:: Diálogo 2A[BIEN D.NORMAL I.NORMAL]
+Felon: Bueno obviaremos lo que ha ocurrido.  Como le comentamos la semana pasada, mi mujer aquí presente sigue adulándome en todas las cosas que hago, ya sea levantarme de la cama o beber agua. ¡Es insoportable!
+Entiendo.[[Diálogo 2]]
+
+:: Claro… Si si[MAL D.ENFADADO I.NORMAL]
+Felon: No parece que se acuerde doctor, que clase de profesionalidad es esta.
+
+¿Usted cree que puedo acordarme de todo?[[¿Usted cree que puedo acordarme de todo?]]
+Claro que me acuerdo, pero si pudierais refrescarme la mente.[[claro que me acuerdo, pero si pudierais refrescarme la mente.]]
+Se me perdieron los papeles y no he podido repasar su caso, perdonen.[[claro que me acuerdo, pero si pudierais refrescarme la mente.]]
+
+:: Diálogo 2C[BIEN D.NORMAL I.SORPRENDIDA I.SORPRENDIDO]
+Felon: Como ya le comentamos, mi mujer aquí presente sigue adulándome en todas las cosas que hago, ya sea levantarme de la cama o beber agua. ¡Es insoportable!
+Entiendo.[[Diálogo 2]]
+
+:: claro que me acuerdo, pero si pudierais refrescarme la mente.[BIEN D.NORMAL I.NORMAL]
+Felon: Bueno pues no podemos resumirle toda una sesión.
+No pasa nada, cuentenme como va todo.[[Diálogo 2C]]
+
+:: Claro si, poder…[MAL D.ENFADADO I.SORPRENDIDO]
+Felon: ¿Como está diciendo? Cariño levántate, nos vamos, este hombre es un impertinente.
+Cuidado no se le quede sin pilas de camino.[[Se van]]
+Perdonen, esta mañana se me ha muerto el perro y no se ni que digo.[[Se van]]
+No, esperen por favor, ha sido un lapsus.[[Se van]]
+Esperen por favor, que estábamos haciendo muchos progresos.[[Esperen por favor, que estábamos haciendo muchos progresos.]]
+
+
+
+:: ¿Usted cree que puedo acordarme de todo?[MAL D.NORMAL I.NORMAL]
+Felon: Debería, es su trabajo.
+Es cierto.[[Diálogo 2C]]
+
+:: Se van
+Se van
+
+:: Esperen por favor, que estábamos haciendo muchos progresos.[BIEN D.NORMAL I.NORMAL]
+Felon: Bueno, nos quedamos, pero no aguantaremos ni una más, se lo advierto. 
+Si si perdonen, cuéntenme su situación.[[Diálogo 2A]]
+
+
+:: Diálogo 2[D.NORMAL INORMAL I.NORMAL BIEN]
+Felón: ¿Qué piensa usted?
+Bueno es tan simple como quitarle las pilas.[[Bueno es tan simple como quitarle las pilas]]
+Perdonen, agradecería si pudieran profundizar más en el tema, no tengo claro su problema.[[Perdonen, agradecería si pudieran profundizar más en el tema, no tengo claro su problema.]]
+Pero… ¿Acaso es eso un problema?[[Pero… ¿Acaso es eso un problema?]]
+Vale debería escuchar algún otro ejemplo, para resolver al situación.[[Vale debería escuchar algún otro ejemplo, para resolver al situación]]
+
+
+:: Bueno es tan simple como quitarle las pilas[MAL D.ENFADADO I.SORPRENDIDO]
+Felon: ¡Pero bueno señor, ella tiene derechos como usted y como yo!
+Si ni puede rellenar un captcha.[[Si ni puede rellenar un captcha.]]
+Quería decir que quizás deberíais valorarla más.[[Quería decir que quizás deberíais valorarla más.]]
+Da igual, continúe.[[Da igual, continue]]
+Perdone no se ni que digo, han debido ponerme algo en el café.[[Perdone no se ni que digo, han debido ponerme algo en el cafe]]
+
+
+:: Perdonen, agradecería si pudieran profundizar más en el tema, no tengo claro su problema.[MAL D.ENFADADO I.NORMAL]
+Felon: Como que profundizar en el tema doctor, ya lo hemos hablado en otras sesiones, queremos una solución.
+Claro.[[Diálogo 3]]
+
+:: Pero… ¿Acaso es eso un problema?[MAL D.SORPRENDIDO I.NORMAL]
+Felon: ¿Cómo dice? Claro que es un problema, yo no puedo vivir con alguien que me está idolatrando constantemente.
+Claro es una situación extraña para usted.[[Claro es una situación extraña para usted]]
+Si es verdad, debe ser duro.[[Si es verdad, debe ser duro.]]
+Es cierto es un grave problema y podemos solucionarlo.[[Diálogo 3]]
+
+:: Vale debería escuchar algún otro ejemplo, para resolver al situación[MAL D.ENFADADO I.NORMAL]
+Felon: Ya le dimos muchos la semana pasada doctor, queremos una solución.
+Cierto.[[Diálogo 3]]
+
+:: Si ni puede rellenar un captcha.[MAL D.ENFADADO I.SORPRENDIDO]
+Felon: ¡Que está diciendo! Usted no es el doctor de siempre , que clase de broma es esta. Cariño levántate, nos vamos.
+Lo sie...[[Se van]]
+
+:: Quería decir que quizás deberíais valorarla más.[BIEN D.SORPRENDIDO I.NORMAL]
+Felon: ¿Valorar dice? Ella es una creación mía, yo no tengo que valorar nada. Denos una solución o nos iremos.
+Entiendo.[[Diálogo 3]]
+
+:: Da igual, continue[MAL D.SORPRENDIDO I.NORMAL]
+Felon: No da igual doctor, como se le ocurre decir eso. Espero que tenga una buena solución para el problema.
+Claro.[[Diálogo 3]]
+
+:: Perdone no se ni que digo, han debido ponerme algo en el cafe[BIEN D.NORMAL I.NORMAL]
+Felon: Ha debido ser eso, usted nunca es así. Espero que nos de una buena solución.
+Claro.[[Diálogo 3]]
+
+:: Diálogo 3[BIEN D.NORMAL I.NORMAL]
+Felon: ¿Qué propone?
+Podría buscarse una novia humana y no una cafetera.[[Podría buscarse una novia humana y no una cafetera.]]
+Podría cambiar su programación para que le insulte cada 30 minutos, así no le estará elogiando continuamente.[[Podría cambiar su programación para que le insulte cada 30 minutos, así no le estará elogiando continuamente.]]
+Ha probado a preguntarle a ella que le parece todo esto.[[Ha probado a preguntarle a ella que le parece todo esto.]]  
+Quizás debería desenchufarla por momentos, así recuperará la tranquilidad en la casa.[[Quizás debería desenchufarla por momentos, así recuperará la tranquilidad en la casa.]]
+
+:: Claro es una situación extraña para usted[MAL D.ENFADADO I.NORMAL]
+Felon: ¿Como que para mí? ¿Acaso sugiere que no debería admirarme la gente?
+Para nada señor, ha hecho muchas cosas buenas.[[Para nada señor, ha hecho muchas cosas buenas.]]
+No perdone, me refería a que debe ser duro.[[Si es verdad, debe ser duro.]]
+En ningún caso señor, usted es un ídolo para todos.[[Para nada señor, ha hecho muchas cosas buenas.]]
+
+:: Si es verdad, debe ser duro.[BIEN D.NORMAL I.NORMAL]
+Felon: Ni se lo imagina, pero lo que queremos es una solución, no su compasión.
+Entiendo.[[Diálogo 3]]
+
+:: Para nada señor, ha hecho muchas cosas buenas.[BIEN D.FELIZ I.NORMAL]
+Felon: Pues sí, pero no estamos aquí para esto, danos una solución.
+Cierto.[[Diálogo 3]]
+
+:: Podría buscarse una novia humana y no una cafetera.[MAL D.ENFADADO I.SORPRENDIDO]
+Felon: No hay más que hablar, cariño levanta, este hombre es un impresentable.
+No se vayan, lo sie...[[Se van]]
+
+:: Podría cambiar su programación para que le insulte cada 30 minutos, así no le estará elogiando continuamente.[BIEN D.SORPRENDIDO I.SORPRENDIDO]
+Felon: Esta acaso sugiriendo ¿Qué reprograme con fallos a mi señora? En la vida he fallado en nada, ni pienso hacerlo.
+Pues ya es hora.[[Pues ya es hora.]]
+No con fallos señor, al ser exactamente lo que quiere, estaría programándola de la forma adecuada, todo depende del punto de vista.[[Se acaba]]
+Los fallos son humanos.[[Los fallos son humanos.]]
+Debe cambiar la mentalidad, al programarla perfecta y no gustarle, ya habría fallado[[Debe cambiar la mentalidad, al programarla perfecta y no gustarle, ya habría fallado ¿Me entiende?]]
+
+
+
+
+:: Ha probado a preguntarle a ella que le parece todo esto.[MAL D.ENFADADO I.SORPRENDIDO]
+Felon: ¿Cómo que preguntarle? Ella es una creación mía, no tiene por qué opinar, yo soy su amo.
+Se me ocurre que también podría cambiar su programación para que le insulte cada 30 minutos.[[Podría cambiar su programación para que le insulte cada 30 minutos, así no le estará elogiando continuamente.]]
+Perdone, estaba de broma, quizás debería desenchufarla por momentos, así recuperará la tranquilidad en la casa.[[Quizás debería desenchufarla por momentos, así recuperará la tranquilidad en la casa.]]
+
+:: Quizás debería desenchufarla por momentos, así recuperará la tranquilidad en la casa.[MAL D.ENFADADO I.SORPRENDIDO]
+Felon: No puedo desenchufarla, es mi mujer y cuando ella no está me siento solo.
+También podría cambiar su programación para que le insulte cada 30 minutos.[[Podría cambiar su programación para que le insulte cada 30 minutos, así no le estará elogiando continuamente.]]
+
+:: Pues ya es hora.[MAL D.ENFADADO I.SORPRENDIDO]
+Felon: Como que ya es hora, soy perfecto y no lo puedo evitar, si su solución es que me equivoque, podemos irnos ya mismo.
+No señor los fallos son humanos, no tiene que preocuparse.[[Los fallos son humanos.]]
+Podría darle otro punto de vista, si quiere que no sea perfecta, programela con fallos seria programarla de forma adecuada.[[Se acaba]]
+Debe cambiar la mentalidad, al programarla perfecta y no gustarle, ya habría fallado[[Debe cambiar la mentalidad, al programarla perfecta y no gustarle, ya habría fallado ¿Me entiende?]]
+
+:: Se acaba[BIEN D.FELIZ I.FELIZ]
+Felon: Es cierto, si lo que quiero es que no sea perfecta, la manera de hacerlo perfecto sería no haciéndolo. Es usted un genio doctor, gracias y ya le contaré la semana que viene.
+
+:: Los fallos son humanos.[MAL D.ENFADADO I.SORPRENDIDO]
+Felon: Ya sabe que yo no me considero humano, no se que clase de respuesta es esa.
+Podría darle otro punto de vista, si quiere que no sea perfecta, programela con fallos seria programarla de forma adecuada.[[Se acaba]]
+Debe cambiar la mentalidad, al programarla perfecta y no gustarle, ya habría fallado ¿Me entiende?[[Debe cambiar la mentalidad, al programarla perfecta y no gustarle, ya habría fallado ¿Me entiende?]]
+
+:: Debe cambiar la mentalidad, al programarla perfecta y no gustarle, ya habría fallado ¿Me entiende?[D.ENFADADO I.SORPRENDIDO]
+Felon: Como que ya habría fallado, señor usted está insultándome con ese comentario, deme otra solución.
+Me refiero a que usted no falló en su momento, pero al querer que tenga fallos, reprogramarla sería programarla de la forma correcta.[[Se acaba]]

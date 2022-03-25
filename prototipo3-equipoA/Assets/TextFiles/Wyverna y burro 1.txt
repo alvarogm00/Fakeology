@@ -1,0 +1,245 @@
+:: StoryTitle
+D.Wyverna y I.burro 1
+
+:: UserScript[script]
+
+
+:: UserStylesheet[stylesheet]
+
+
+:: Pasaje sin título[START D.NORMAL I.NORMAL]
+Wyverna: Hola, buenos días.
+Burro: Muy buenas doctor.
+Me cago en la puta, un burro que habla.[[Me cago en la puta, un burro que habla.]]
+Hola buenas, encantado de conocerles, cuéntenme su situación.[[Diálogo 2B]]
+Buenos días, cuanto tiempo desde la última sesión.[[Buenos días, cuanto tiempo desde la última sesión.]]
+
+
+
+:: Me cago en la puta, un burro que habla.[MAL D.ENFADADO I.SORPRENDIDO]
+Wyverna: Pero bueno señor, que formas son esas de hablar a mi marido.
+Perdone señora, pero me ha recordado a mi infancia.[[Perdone señora, pero me ha recordado a mi infancia.]]
+Quería decir, encantado de recibirles, perdonen.[[Quería decir, encantado de recibirles, perdonen.]]
+Lo siento señora, pensé que los burros solo hablaban en las películas.[[Lo siento señora, pensé que los burros solo hablaban en las películas.]]
+Perdónenme, hoy no he dormido mucho.[[Diálogo 2A]]
+
+
+
+
+:: Diálogo 2B[BIEN D.ENFADADO I.NORMAL]
+Burro: Pues mire doctor, aquí mi querida mujer, no me deja salir de fiesta con mis colegas a la ciénaga y dice que debo pasar más tiempo con los niños, totalmente inadmisible.
+Entiendo.[[Diálogo 2]]
+
+:: Buenos días, cuanto tiempo desde la última sesión.[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: ¿Ultima sesión? Es la primera vez que venimos señor, ¿de que está hablando?
+Es verdad, es que justo vinieron unos parecidos a ustedes y pensé que erais los mismos, discúlpenme. [[Es verdad, es que justo vinieron unos parecidos a ustedes y pensé que erais los mismos, discúlpenme.]]
+Es cierto, tengo mucho lío últimamente perdónenme. Cuénteme su situación.[[Diálogo 2CB]]
+
+:: Perdone señora, pero me ha recordado a mi infancia.[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: No sé, como tomarme eso doctor, debería no hacer comentarios impertinentes en su trabajo. 
+Perdónenme, hoy no he dormido mucho.[[Diálogo 2A]]
+
+
+:: Quería decir, encantado de recibirles, perdonen.[MAL D.ENFADADO I.NORMAL]
+Wyverna: Hemos oído perfectamente lo que querías decir, a que si cariño
+Burro: Si si, lo que tu digas cielo.
+Perdónenme, hoy no he dormido mucho.[[Diálogo 2A]]
+
+:: Lo siento señora, pensé que los burros solo hablaban en las películas.[MAL D.SORPRENDIDO I.SORPRENDIDO]
+Wyverna: Que clase de películas ve usted doctor, mejor que deje de insultar a mi marido.
+Perdónenme, hoy no he dormido mucho.[[Diálogo 2A]]
+
+:: Diálogo 2A[BIEN D.ENFADADO I.ENFADADO]
+Wyverne: Debe ser eso, porque no es propio de un doctor hacer ese tipo de comentarios. Ahora bien, mi marido te explicará porque estamos aquí, ¿Verdad cariño?
+Burro: Pues mire doctor, aquí mi querida mujer, no me deja salir de fiesta con mis colegas a la ciénaga y dice que debo pasar más tiempo con los niños, totalmente inadmisible.
+Entiendo.[[Diálogo 2]] 
+
+
+:: Es verdad, es que justo vinieron unos parecidos a ustedes y pensé que erais los mismos, discúlpenme.[MAL D.ENFADADO I.NORMAL]
+Wyvenra: Parecidos a nosotros no creo doctor, ¿está diciendo que ni reconoce a sus pacientes? Quizás deberíamos haber buscado otra consulta cariño.
+Burro: La elegiste tú, que luego me echas las culpas.
+No por favor no se vayan, cuéntenme su situación.[[Diálogo 2CA]]
+
+
+:: Diálogo 2CB[BIEN I.ENFADADO D.ENFADADO]
+Burro: Pues mire doctor, aquí mi querida mujer, no me deja salir de fiesta con mis colegas a la ciénaga y dice que debo pasar más tiempo con los niños, totalmente inadmisible.
+Entiendo.[[Diálogo 2]]
+
+:: Diálogo 2CA[BIEN D.ENFADADO I.ENFADADO]
+Burro: Vamos a darle una oportunidad. 
+Pues mire doctor, aquí mi querida mujer, no me deja salir de fiesta con mis colegas a la ciénaga y dice que debo pasar más tiempo con los niños, totalmente inadmisible.
+Entiendo.[[Diálogo 2]]
+
+:: Diálogo 2[BIEN D.NORMAL I.NORMAL]
+Burro: ¿Qué opina doctor?
+¿Hijos? Creo que hay algo que no estoy entendiendo.[[¿Hijos? Creo que hay algo que no estoy entendiendo.]]
+¿Podría escuchar su versión? Señora dragona.[[¿Podría escuchar su versión? Señora dragona]]
+Bueno me va a ser difícil solucionarlo si no escucho las dos versiones.[[Diálogo 3]]
+Quizás está exagerando señora, él debe también hacer su vida.[[Quizás está exagerando señora, él debe también hacer su vida.]]
+
+:: ¿Hijos? Creo que hay algo que no estoy entendiendo.[MAL D.SORPRENDIDO I.SORPRENDIDO]
+Wyverna: Que es lo que no entiende doctor, ¿está tomándonos el pelo?
+Burro: Si tu supieras…
+No perdone, me refería a que… bueno tu eres un dragón, el un burro… Quizás soy yo el loco.[[No perdone, me refería a que… bueno tu eres un dragón, el un burro… Quizás soy yo el loco.]]
+Perdone, me refería a que querría escuchar las dos versiones, señora dragona.[[¿Podría escuchar su versión? Señora dragona]]
+Perdónenme, no debería entrometerme en cosas personales. Me gustaría escuchar las dos versiones.[[Diálogo 3]]
+
+:: ¿Podría escuchar su versión? Señora dragona[MAL D.ENFADADO I.SORPRENDIDO]
+Wyerna: ¿Como que dragona? Ese ha sido un comentario muy racista doctor. No ha sido buena idea venir aquí, sabía que no servíais para nada, ¡panda de estafadores¡
+
+Burro: Perdónela señor, está ahora muy sensible con esto del Drake Lives Mater.
+Es cierto sois criaturas muy indefensas, no hay duda.[[Es cierto sois criaturas muy indefensas, no hay duda.]]
+Perdone eso ha sido muy desafortunado por mi parte, mejor si obviamos lo que ha pasado y me cuenta su versión.[[Diálogo 3]]
+Es verdad los dragones han hecho mucho por este universo, lo siento no quería ofenderla.[[Es verdad los dragones han hecho mucho por este universo, lo siento no quería ofenderla.]]
+
+:: Diálogo 3[BIEN D.NORMAL I.SORPRENDIDO]
+Wyverna: Pues mire doctor, aquí el presente, se va cada tarde con su amigo el ogro y con una especie de felino con botas, a emborracharse y buscar no sé qué mierda de una princesa. Mientras tanto, yo tengo que hacer todas las tareas de la casa y además estar atento de los niños. ¡Ya no aguanto más!
+¿Una princesa dice? Siempre quise salir con una.[[¿Una princesa dice? Siempre quise salir con una.]]
+Entiendo la situación, usted señor debería estar más atento a los niños.[[Entiendo la situación, usted señor debería estar más atento a los niños.]]
+Entiendo la situación, habría que buscar una forma en la que los dos tuvierais el mismo tiempo libre.[[Entiendo la situación, habría que buscar una forma en la que los dos tuvierais el mismo tiempo libre.]]
+
+:: Quizás está exagerando señora, él debe también hacer su vida.[MAL D.ENFADADO I.FELIZ]
+Wyverna: ¿Como dice? ¿Y usted se cree que yo no tengo vida? 
+Burro: Me gusta este doctor.
+Hombre, no sé si con ese tamaño se pueden hacer muchas cosas aquí en la tierra.[[Hombre, no sé si con ese tamaño se pueden hacer muchas cosas aquí en la tierra.]]
+Perdóneme señora dragona, solo quería saber como reaccionaba ante ese comentario, cuenteme su versión de la historia si es tan amable.[[¿Podría escuchar su versión? Señora dragona]]
+No señora, era para saber su opinión. Sin escuchar las dos versiones no puedo daros una solución.[[Diálogo 3]]
+
+
+:: No perdone, me refería a que… bueno tu eres un dragón, el un burro… Quizás soy yo el loco.[MAL D.ENFADADO I.NORMAL]
+Wyverna: Sin duda es usted el loco doctor, no se quien se cree para meterse donde no le llaman.
+Perdone, me refería a que querría escuchar las dos versiones, señora dragona.[[¿Podría escuchar su versión? Señora dragona]]
+Perdónenme, no debería entrometerme en cosas personales. Me gustaría escuchar las dos versiones.[[Diálogo 3]]
+
+:: Es cierto sois criaturas muy indefensas, no hay duda.[MAL D.ENFADADO I.SORPRENDIDO]
+Wyverna: No hay más que hablar, nos vamos.
+Burro: Buena esa doctor.
+Perdónenme no he dormido mucho.[[Perdónenme no he dormido mucho]]
+Perdone eso ha sido muy desafortunado por mi parte, mejor si obviamos lo que ha pasado y me cuenta su versión.[[Diálogo 3]] 
+Es verdad los dragones han hecho mucho por este universo, lo siento no quería ofenderla.[[Es verdad los dragones han hecho mucho por este universo, lo siento no quería ofenderla.]]
+
+:: Es verdad los dragones han hecho mucho por este universo, lo siento no quería ofenderla.[MAL D.ENFADADO I.NORMAL]
+Wyverna: No entiendo su sarcasmo señor, céntrese por favor.
+Perdone tengo la cabeza muy liada, me gustaría oír su versión si fuera posible.[[Diálogo 3]]
+
+
+:: Hombre, no sé si con ese tamaño se pueden hacer muchas cosas aquí en la tierra.[MAL D.ENFADADO I.ENFADADO]
+Wyvenra: Ya estoy harta, nos vamos ahora mismo cariño.
+Burro: Claro cuando me dan la razón ya no te interesa.
+Esperen por favor, no se vayan[[Se van]]
+
+
+:: Se van
+Se van
+
+:: Perdónenme no he dormido mucho[MAL D.ENFADADO I.NORMAL]
+Wyverna: No dormir no es una excusa para ser racista, que poca profesionalidad.
+Cariño levanta que nos vamos.
+Burro: Al menos no se puede negar que lo intente.[[Se van]]
+
+:: Entiendo la situación, usted señor debería estar más atento a los niños.[BIEN D.ENFADADO I.ENFADADO]
+Burro: Mire doctor yo no puedo estar atento a los niños, me es imposible cuidarles bien, están todo el día echando fuego por la boca y quemándome. Además, siempre que les regaño salen volando y no puedo ir detrás de ellos como mi mujer.
+Menudo panorama tiene que ser su casa.[[Menudo panorama tiene que ser su casa.]]
+Quizás deberíamos encontrar la manera de que usted se encargues de algunas tareas y la señora de otras.[[Quizás deberíamos encontrar la manera de que usted se encargues de algunas tareas y la señora de otras.]]
+Quizás deberían cuidarles los dos juntos y así ambos podrán disfrutar de su compañía.[[Quizás deberían cuidarles los dos juntos y así ambos podrán disfrutar de su compañía.]]
+Quizás deberían buscar una niñera y así tener todo el tiempo libre que quieran.[[Quizás deberían buscar una niñera y así tener todo el tiempo libre que quieran.]]
+
+:: Entiendo la situación, habría que buscar una forma en la que los dos tuvierais el mismo tiempo libre.[BIEN D.SORPRENDIDO I.NORMAL]
+Wyverna: Es buena idea, ¿qué propone al respecto?
+No sé, yo lo dejo ahí, ustedes saquen conclusiones.[[No sé, yo lo dejo ahí, ustedes saquen conclusiones.]]
+Podríamos buscar días en los que se encargue uno o se encargue el otro.[[Podríamos buscar días en los que se encargue uno o se encargue el otro.]]
+Se podría hacer un calendario y que cada uno elija cuando quiere tiempo libre y cuando puede cuidar de los niños.[[Se podría hacer un calendario y que cada uno elija cuando quiere tiempo libre y cuando puede cuidar de los niños]]
+Se podría decidir al día e ir alternando según tengan o no planes cada uno.[[Se podría decidir al día e ir alternando según tengan o no planes cada uno.]]
+
+
+:: Perdonen, llevo mucho tiempo solo.[MAL D.ENFADADO I.NORMAL]
+Wyverna: Doctor nosotros somos los pacientes, no usted, denos una solución.
+
+Entiendo la situación, usted señor debería estar más atento a los niños.[[Entiendo la situación, usted señor debería estar más atento a los niños.]]
+Entiendo la situación, habría que buscar una forma en la que los dos tuvierais el mismo tiempo libre.[[Entiendo la situación, habría que buscar una forma en la que los dos tuvierais el mismo tiempo libre.]]
+
+:: No señora, querría decir que quizás debería acompañarlos y así confirmar que llegue pronto a casa y pueda cuidar de los niños.[I.NORMAL D.ENFADADO MAL]
+Burro: Lo siento mi colega el ogro no le aceptará, esta pilladisimo.
+Wyverna: ¡Qué dices cariño! Claro que no puede acompañarle, debe hacer que no salga.
+Como va a querer una princesa estar con un ogro.[[Como va a querer una princesa estar con un ogro]]
+Es cierto, entiendo la situación, usted señor debería estar más atento a los niños.[[Entiendo la situación, usted señor debería estar más atento a los niños.]]
+En cierto, entiendo la situación, habría que buscar una forma en la que los dos tuvierais el mismo tiempo libre.[[Entiendo la situación, habría que buscar una forma en la que los dos tuvierais el mismo tiempo libre.]]
+
+
+:: Perdonen, creo que es una amiga mía y también estoy preocupada por ella.[MAL]
+Burro: A mi colega no le va hacer ninguna gracia si eso es cierto.
+Wyverna: Que importa que la conozca, doctor esto es terapia no el parque, denos una solución.
+Es cierto, entiendo la situación, usted señor debería estar más atento a los niños.[[Entiendo la situación, usted señor debería estar más atento a los niños.]]
+En cierto, entiendo la situación, habría que buscar una forma en la que los dos tuvierais el mismo tiempo libre.[[Entiendo la situación, habría que buscar una forma en la que los dos tuvierais el mismo tiempo libre.]]
+
+
+:: Como va a querer una princesa estar con un ogro[MAL D.ENFADADO I.NORMAL]
+Wyverna: ¡Ya está, nos vamos! Menuda pérdida de tiempo.
+
+Esperen, no se vayan[[Se van]]
+
+:: Menudo panorama tiene que ser su casa.[MAL D.ENFADADO I.SORPRENDIDO]
+Wyverna: Perdone doctor, pero es una relación de lo más normal, deje de decir tonterías y denos una solución.
+Quizás deberíamos encontrar la manera de que usted se encargues de algunas tareas y la señora de otras.[[Quizás deberíamos encontrar la manera de que usted se encargues de algunas tareas y la señora de otras.]]
+Quizás deberían cuidarles los dos juntos y así ambos podrán disfrutar de su compañía.[[Quizás deberían cuidarles los dos juntos y así ambos podrán disfrutar de su compañía.]]
+Quizás deberían buscar una niñera y así tener todo el tiempo libre que quieran.[[Quizás deberían buscar una niñera y así tener todo el tiempo libre que quieran.]]
+
+:: Quizás deberíamos encontrar la manera de que usted se encargues de algunas tareas y la señora de otras.[BIEN D.NORMAL I.SORPRENDIDO]
+Wyverna: Me parece buena idea, pero mi marido siempre esta buscando la forma de escabullirse. 
+Si nos comprometemos todos, le aseguro que no podrá librarse.[[Si nos comprometemos todos, le aseguro que no podrá librarse.]]
+Podrían contratar alguien para que vigilase a su marido y así no pueda librarse.[[Podrían contratar alguien para que vigilase a su marido y así no pueda librarse]]
+
+:: Quizás deberían cuidarles los dos juntos y así ambos podrán disfrutar de su compañía.[BIEN D.NORMAL I.NORMAL]
+Wyverna: Ya lo hemos intentado, al final siempre acabo yo cuidándoles y el viendo el futbol. Espero que el quede alguna otra solución.
+Quizás deberían buscar una niñera y así tener todo el tiempo libre que quieran.[[Quizás deberían buscar una niñera y así tener todo el tiempo libre que quieran.]]
+
+
+:: Quizás deberían buscar una niñera y así tener todo el tiempo libre que quieran.[BIEN D.FELIZ I.ENFADADO]
+Wyverna: ¡Es verdad! Como no hemos pensado en eso, así los dos podremos salir y tener tiempo para nosotros. Ahora mismo vamos a buscar una, gracias doctor, ya el contaremos.
+Burro: A derrochar el dinero, claro que sí.
+
+Esperen por favor, no se vayan[[Se acaba]]
+
+
+:: Si nos comprometemos todos, le aseguro que no podrá librarse.[BIEN D.NORMAL I.SORPRENDIDO]
+Wyverna: Usted no le conoce…
+Burro: Dortor yo me comprometo, pero hay tareas que me es imposible realizar como le he dicho.
+Quizás deberían cuidarles los dos juntos y así ambos podrán disfrutar de su compañía.[[Quizás deberían cuidarles los dos juntos y así ambos podrán disfrutar de su compañía.]]
+Quizás deberían buscar una niñera y así tener todo el tiempo libre que quieran.[[Quizás deberían buscar una niñera y así tener todo el tiempo libre que quieran.]]
+
+:: Podrían contratar alguien para que vigilase a su marido y así no pueda librarse[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: Si claro contratar a alguien para que cuide a mi marido de que no se desvié en cuidar a mis hijos. ¿Está usted bien? 
+Quizás deberían cuidarles los dos juntos y así ambos podrán disfrutar de su compañía.[[Quizás deberían cuidarles los dos juntos y así ambos podrán disfrutar de su compañía.]]
+Quizás deberían buscar una niñera y así tener todo el tiempo libre que quieran.[[Quizás deberían buscar una niñera y así tener todo el tiempo libre que quieran.]]
+
+:: Se acaba
+Se van
+
+:: No sé, yo lo dejo ahí, ustedes saquen conclusiones.[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: ¿Qué conclusiones vamos a sacar? Propónganos ideas doctor, para eso hemos venido.
+Podríamos buscar días en los que se encargue uno o se encargue el otro.[[Podríamos buscar días en los que se encargue uno o se encargue el otro.]]
+Se podría hacer un calendario y que cada uno elija cuando quiere tiempo libre y cuando puede cuidar de los niños.[[Se podría hacer un calendario y que cada uno elija cuando quiere tiempo libre y cuando puede cuidar de los niños]]
+Se podría decidir al día e ir alternando según tengan o no planes cada uno.[[Se podría decidir al día e ir alternando según tengan o no planes cada uno.]]
+
+
+:: Podríamos buscar días en los que se encargue uno o se encargue el otro.[BIEN D.FELIZ I.SORPRENDIDO]
+Wyverna: Es buena idea, ¿pero como vamos a organizar esos días? Usted no conoce a mi marido, cuando algo no esta por escrito, se le olvida al momento.
+Burro: Respeto cielo, que no quiero quedar mal delante del doctor.
+Entonces se podría hacer un calendario y que cada uno elija cuando quiere tiempo libre y cuando puede cuidar de los niños.[[Se podría hacer un calendario y que cada uno elija cuando quiere tiempo libre y cuando puede cuidar de los niños]]
+
+:: Se podría hacer un calendario y que cada uno elija cuando quiere tiempo libre y cuando puede cuidar de los niños[BIEN D.FELIZ I.SORPRENDIDO]
+Wyverna: Es muy buena idea, me parece perfecto. ¿Tú qué opinas cariño?
+Burro: A ver doctor, es que hay tareas que yo no puedo hacer, no es que no quiera.
+Entiendo la situación pero, ¿por qué no puede?[[Entiendo la situación, usted señor debería estar más atento a los niños.]]
+
+
+:: Se podría decidir al día e ir alternando según tengan o no planes cada uno.[BIEN D.FELIZ I.ENFADADO]
+Wyverna: Es buena idea, ¿pero como vamos a organizar esos días? Usted no conoce a mi marido, cuando algo no esta por escrito, se le olvida al momento.
+Burro: Respeto cielo, que no quiero quedar mal delante del doctor.
+Entonces se podría hacer un calendario y que cada uno elija cuando quiere tiempo libre y cuando puede cuidar de los niños.[[Se podría hacer un calendario y que cada uno elija cuando quiere tiempo libre y cuando puede cuidar de los niños]]
+
+:: ¿Una princesa dice? Siempre quise salir con una.[MAL D.ENFADADO I.FELIZ]
+Wyverna: ¡Qué importa la princesa! No estamos aquí para que haga amigos.
+Perdonen, llevo mucho tiempo solo.[[Perdonen, llevo mucho tiempo solo.]]
+No señora, querría decir que quizás debería acompañarlos y así confirmar que llegue pronto a casa y pueda cuidar de los niños.[[No señora, querría decir que quizás debería acompañarlos y así confirmar que llegue pronto a casa y pueda cuidar de los niños.]]
+Perdonen, creo que es una amiga mía y también estoy preocupada por ella.[[Perdonen, creo que es una amiga mía y también estoy preocupada por ella.]]

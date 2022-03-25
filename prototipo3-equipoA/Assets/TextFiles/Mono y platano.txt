@@ -1,0 +1,89 @@
+:: StoryTitle
+Mono y platano
+
+:: UserScript[script]
+
+
+:: UserStylesheet[stylesheet]
+
+
+:: Dialogo 1[START D.NORMAL I.NORMAL]
+Entra un mono con un plátano. Se sienta delante tuya muy digno. 
+
+Tu objetivo es arreglar los problemas de las parejas que vengan a tu consulta, a la vez que mantienes las apariencias. Que no descubran que eres un impostor!
+Hostia puta un mono! [[Dialogo 2]]
+Quedarte callado aterrado[[Dialogo 2]]
+Buenos dias [[Dialogo 2]]
+Tengo que dejar los carajillos por las mañanas[[Dialogo 2]]
+
+::  Dialogo 2[D.FELIZ I.ENFADADO]
+Mono hablando sin sentido. 
+
+Las respuestas aparecerán según pasa el tiempo. 
+No se que coño estas diciendo [[Dialogo 3]]
+Has probado a volver al zoo? [[Has probado a volver al zoo?]]
+Eres mono o macaco? [[Eres mono o macaco?]]
+Voy a apuntar esto en mi máquina de escribir invisible [[Voy a apuntar esto en mi máquina de escribir invisible]]
+
+::  Dialogo 3[D.NORMAL I.NORMAL]
+El mono sigue a lo suyo. 
+
+La primera respuesta se borrará pasado un tiempo y será sustituida por las siguientes.
+Creo que voy a llamar a la policia [[Creo que voy a llamar a la policia]]
+Que tal si nos centramos en que siente el platano? [[Que tal si nos centramos en que siente el platano?]]
+Vamos a ver, pero tu que es lo que quieres [[Vamos a ver, pero tu que es lo que quieres]]
+Mira ojala ser mono yo tambien [[Mira ojala ser mono yo tambien]]
+
+:: Has probado a volver al zoo?[D.SORPRENDIDO I.FELIZ]
+mas mono hablando sin sentido.
+
+Cada respuesta cuenta. Tu mismo con tu mecanismo. 
+Esto se pasa de surrealista [[Dialogo 3]] 
+Bueno... Asumo que tienes problemas con tu platano? [[Dialogo 3]] 
+A lo mejor estaria bien hablar las cosas con el platano... [[Dialogo 3]] 
+No se si decir algo si quiera... [[Dialogo 3]] 
+
+:: Eres mono o macaco?[D.FELIZ I.SORPRENDIDO]
+mas mono hablando sin sentido. 
+Bueeeno, pues se ha quedado buena tarde[[Dialogo 3]]
+Y que tal es ser mono? [[Dialogo 3]]
+Como has conseguido entrar en el edificio? [[Dialogo 3]]
+Has pensado en escuchar al plátano? [[Dialogo 3]]
+
+:: Voy a apuntar esto en mi máquina de escribir invisible[D.NORMAL I.ENFADADO]
+mas mono hablando sin sentido. 
+Mira a mi esto como que me da un poco igual...[[Dialogo 3]]
+Increible hasta donde ha llegado la sociedad...[[Dialogo 3]]
+Y en casa todo bien? Que tal la convivencia? [[Dialogo 3]]
+Puede que lo mejor sea que veas a un veterinario [[Dialogo 3]]
+
+:: Creo que voy a llamar a la policia[D.SORPRENDIDO I.ENFADADO]
+Mas sin sentido 
+Intentar hablar en mono [[Mono se va]]
+Mirarle fijamente sin decir nada [[Mono se va]]
+Esconderse lentamente debajo de la mesa[[Mono se va]]
+Hacer como que llamas por teléfono [[Mono se va]]
+
+:: Que tal si nos centramos en que siente el platano?[D.FELIZ I.FELIZ]
+Mas sin sentido
+Dime platano, tu que sientes? [[Mono se va]]
+Platano, como es vivit con un mono [[Mono se va]]
+Eres de canarias? [[Mono se va]]
+No tienes miedo de vivir con un mono? [[Mono se va]]
+
+:: Vamos a ver, pero tu que es lo que quieres[D.SORPRENDIDO I.SORPRENDIDO]
+Mas sin sentido
+Acaso el platano no es bueno en la cama? [[Mono se va]]
+No se deja pelar el platano ehh.... [[Mono se va]]
+A lo mejor si intentas escribir lo que dices... [[Mono se va]]
+Siii, tienes toooda la razón [[Mono se va]]
+
+:: Mira ojala ser mono yo tambien[D.ENFADADO I.ENFADADO]
+Mas sin sentido
+Vivir en la selva, rascarme el culo... [[Mono se va]] 
+Hay que hacer alguna prueba para ser mono? [[Mono se va]] 
+Me... Me dejas desparasitarte? [[Mono se va]] 
+Lo de tirar a caca os lo enseñan o es innato? [[Mono se va]] 
+
+::  Mono se va[D.NORMAL I.NORMAL]
+El mono se levanta, se come el plátano y se va

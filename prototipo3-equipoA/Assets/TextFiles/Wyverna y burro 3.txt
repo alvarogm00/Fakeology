@@ -1,0 +1,321 @@
+:: StoryTitle
+D.Wyverna y I.Burro 3
+
+:: UserScript[script]
+
+
+:: UserStylesheet[stylesheet]
+
+
+:: Pasaje sin título[START]
+Wyverna: Buenos días.
+Burro: Muy buenas.
+Espero que tengan dinero para pagarme.[[Espero que tengan dinero para pagarme.]]
+Pasen, encantado de recibirles.[[Pasen, encantado de recibirles]]
+Que pasó amigos.[[Que paso amigos.]]
+Hola buenas, cuéntenme cómo va la cosa.[[B]]
+
+:: Espero que tengan dinero para pagarme.[MAL D.ENFADADO I.NORMAL]
+Wyverna: Doctor no me lo recuerde que no vengo de humor.
+Burro: Tenga cuidado, lleva una semanita…
+¿Tienen dinero o no?[[¿Tienen dinero o no?]]
+La vida son dos días hombre, tranquilícese.[[La vida son dos días hombre tranquilícese.]]
+Con el buen consejo que les di…[[Con el buen consejo que les di…]]
+
+:: Pasen, encantado de recibirles[BIEN D.ENFADADO I.NORMAL]
+Wyverna: Déjese de tanto encantado, la que nos lio la última vez ha sido grande.
+Yo solo aconsejo, ustedes actúan.[[Yo solo aconsejo, ustedes actúan.]]
+Yo no he liado nada.[[Yo solo aconsejo, ustedes actúan.]]
+Perdonen, cuéntenme que ha ocurrido.[[B]]
+
+:: ¿Tienen dinero o no?[MAL D.ENFADADO I.NORMAL]
+Wyverna: Pues claro que tenemos doctor, deje de preguntarnos ya y vamos a lo que importa.
+La vida son dos días hombre tranquilícese.[[La vida son dos días hombre tranquilícese.]]
+Perdóneme, cuéntenme como va todo.[[B]]
+
+
+:: La vida son dos días hombre tranquilícese.[MAL D.ENFADADO I.NORMAL]
+Wyverna: No puedo tranquilizarme, no sabe en el marrón que nos ha metido doctor.
+Burro: Bueno cariño no es para tanto.
+Perdóneme, cuénteme como va todo.[[B]]
+
+
+:: Con el buen consejo que les di…[MAL D.ENFADADO I.NORMAL]
+Wyverna: No solucionaste nada. Espero que haya valido la pena venir hoy.
+Burro: Si cariño ya verás.
+Como no va a valer la pena, si soy el mejor terapeuta de por aquí.[[Como no va a valer la pena si soy el mejor terapeuta de pro aquí.]]
+Perdónenme si no les sirvió de ayuda, cuéntenme que les ocurre.[[B]]
+
+
+:: Que paso amigos.[MAL D.SORPRENDIDO I.FELIZ]
+Wyverna: ¿Amigos? No se como puede pensar que somos amigos con la mierda de solución que nos dio.
+Burro: Para mí sí que es mi amigo doctor.
+Gracias señor, alguien con cabeza en la sala.[[Gracias señor, alguien con cabeza en la sala.]]
+Perdone, todos mis clientes son mis amigos.[[Perdone, todos mis clientes son mis amigos.]]
+Perdóneme, cuéntenme que les ha ocurrido. [[B]]
+
+
+:: B[BIEN D.ENFADADO I.NORMAL]
+Wyverna: Pues mire, nos aconsejaste que empeñásemos el oro y mi marido al parecer, no lo entendió y lo vendió todo. 
+Burro: Mea culpa.
+Buena inversión, el oro esta últimamente bajando mucho.[[Buena inversión, el oro esta últimamente bajando mucho.]]
+Entiendo, ¿ahora tienen dinero entonces?[[Entiendo, ¿ahora tienen dinero entonces?]]
+A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.[[A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.]]
+Entiendo el malentendido, quizás debería comprenderle usted a él.[[Entiendo el malentendido, quizás debería comprenderle usted a él.]]
+
+
+:: Como no va a valer la pena si soy el mejor terapeuta de pro aquí.[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: No tiene abuela por lo que veo doctor. Espero que nos dé una buena solución esta vez, sí es tan bueno como dice.
+Perdóneme, díganme que les ocurre, yo se lo soluciono.[[B]]
+
+
+:: Yo solo aconsejo, ustedes actúan.[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: ¿Está diciendo que no se responsabiliza? Menudo profesional…
+Burro: Déjale cariño, a ver si nos da una solución.
+Responsabilizarse no va en el contrato.[[Responsabilizarse no va en el contrato.]]
+A ver responsabilizarme como tal, la verdad que no está en mi trabajo.[[Responsabilizarse no va en el contrato.]]
+Perdonen, cuéntenme que ha ocurrido.[[B]]
+
+
+:: Responsabilizarse no va en el contrato.[MAL D.ENFADADO+ D.ENFADADO I.NORMAL]
+Wyverna: ¿Cómo que no esta en su trabajo? Usted nos da un consejo de mierda y se olvida por lo que veo.
+Pues haberme pagado más…[[Pues haberme pagado más…]]
+Perdonen, cuéntenme que les ha ocurrido.[[B]]
+
+
+:: Pues haberme pagado más…[mal D.ENFADADO I.NORMAL]
+Wyverna: ¿Más dice? Con la mierda que nos recomendaste deberias devolvernos el dienro.
+Esra broma amigos.[[Que paso amigos.]]
+Era broma, cuentenme que les ha ocurrido.[[B]]
+
+
+:: Gracias señor, alguien con cabeza en la sala.[MAL D.ENFADADO I.NORMAL]
+Wyverna: ¿Me está vacilando? Por favor céntrese en nuestro problema.
+Burro: Ya tú sabes.
+Perdóneme, cuéntenme que les ha ocurrido.[[B]]
+
+:: Perdone, todos mis clientes son mis amigos.[BIEN D.SORPRENDIDO I.NORMAL]
+Wyverna: Pues como trate de la misma manera a sus amigos…
+Era broma, la verdad que no tengo amigos.[[Era broma, la verdad que no tengo amigos.]]
+Perdóneme, cuéntenme que les ha ocurrido.[[B]]
+
+
+:: Era broma, la verdad que no tengo amigos.[BIEN D.ENFADADO I.SORPRENDIDO]
+Wyverna: Se nota… Ahora céntrese por favor.
+Burro: Dios mío, es lo más triste que he oído en años.
+Perdóneme, cuéntenme que les ha ocurrido.[[B]]
+
+:: Buena inversión, el oro esta últimamente bajando mucho.[MAL D.ENFADADO I.FELIZ]
+Burro: Soy un visionari…
+Wyverna: Me da igual que sea buena inversión, ¡Ha vendido todo mi oro!
+De que le sirve tanto oro si es una dragona, ni que fuera rapera.[[De que le sirve tanto oro si es una dragona, ni que fuera rapera.]]
+De que le sirve tanto oro, mejor tener dinero para sus hijos.[[De que le sirve tanto oro, mejor tener dinero para sus hijos.]]
+Entiendo, ¿ahora tienen dinero entonces?[[Entiendo, ¿ahora tienen dinero entonces?]]
+A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.[[A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.]]
+
+
+:: Entiendo, ¿ahora tienen dinero entonces?[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: Claro que tenemos dinero, pero si no tengo mi oro, ¿Qué importa lo demás? 
+Burro: A ella solo el importa su oro…
+Ya veo ya…[[Ya veo ya…]]
+Quizás habría que pasar página, el dinero no lo es todo.[[Quizás habría que pasar página, el dinero no lo es todo.]]
+Quizás podrían comprar otra vez el oro.[[Quizás podrían comprar otra vez el oro.]]
+Quizás debería entender a su marido, lo ha hecho por un bien común.[[Entiendo el malentendido, quizás debería comprenderle usted a él.]]
+
+
+:: A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.[MAL D.ENFADADO I.NORMAL]
+Wyverna: ¿No lo ve tan grave? Doctor he perdido el oro de mi familia, ya nunca voy a poder recuperarlo.
+Burro: Dramatizando, como siempre.
+Le comprendo, pero a mi mientras me paguen con dinero…[[Le comprendo, pero a mi mientras me paguen con dinero…]]
+Grave no sería la palabra, simplemente debería pasar página.[[Grave no sería la palabra, simplemente debería pasar página.]]
+Si lo veo grave, pero quizás debería comprender a su marido.[[Entiendo el malentendido, quizás debería comprenderle usted a él.]]
+
+
+:: Entiendo el malentendido, quizás debería comprenderle usted a él.[BIEN D.ENFADADO I.SORPRENDIDO]
+Wyverna: ¿Entender a mi marido? Lo que ha hecho no tiene perdón. 
+Burro: Ha sido sin querer cariño.
+Cristo siempre perdona a los pecadores, recuérdelo.[[Cristo siempre perdona a los pecadores, recuérdelo.]]
+Le esta diciendo que ha sido sin querer, debería perdonarle.[[Le esta diciendo que ha sido sin querer, debería perdonarle.]]
+Quizás deberían hablarlo ente ustedes.[[Quizás deberían hablarlo ente ustedes.]]
+
+
+:: De que le sirve tanto oro si es una dragona, ni que fuera rapera.[MAL D.ENFADADO I.NORMAL]
+Wyverna: ¿Me ha dicho dragona? Me da un consejo de mierda y encima es racista, ya es el colmo.
+Burro: La cagó doctor.
+Perdone, hoy he tenido mal día.[[Perdone, hoy he tenido mal día.]]
+
+
+:: De que le sirve tanto oro, mejor tener dinero para sus hijos.[MAL D.ENFADADO I.SORPRENDIDO]
+Wyverna: No meta a mis hijos en esto, el oro lo es todo para los de mi especie, sino no me siento viva.
+Burro: No hable de los niños o se enfadará.
+Quizás debería separarse de sus costumbres, no siempre son buenas.[[Quizás debería separarse de sus costumbres, no siempre son buenas.]]
+Perdone, quería decir que no veo el problema, ahora tienen dinero de sobra.[[Perdone, quería decir que no veo el problema, ahora tienen dinero de sobra.]]
+A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.[[A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.]]
+
+
+:: Perdone, hoy he tenido mal día.[BIEN D.SORPRENDIDO I.NORMAL]
+Wyverna: No sé qué tiene que ver eso con ser racista, olvídelo y díganos por favor que opina.
+De que le sirve tanto oro, mejor tener dinero para sus hijos.[[De que le sirve tanto oro, mejor tener dinero para sus hijos.]]
+Entiendo la situacion, ¿ahora tienen dinero entonces?[[Entiendo, ¿ahora tienen dinero entonces?]]
+A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.[[A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.]]
+
+
+:: Quizás debería separarse de sus costumbres, no siempre son buenas.[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: Mis costumbres son sagradas, no sé qué clase de comentario es ese. Deme una solución que no ofenda a todo un colectivo.
+Perdone, quería decir que no veo el problema, ahora tienen dinero de sobra.[[Perdone, quería decir que no veo el problema, ahora tienen dinero de sobra.]]
+A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.[[A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.]]
+
+
+:: Perdone, quería decir que no veo el problema, ahora tienen dinero de sobra.[MAL D.ENFADADO I.NORMAL]
+Wyverna: ¿No ve el problema? Le he dicho que sin el oro me siento vacía, da igual el dinero.
+Entiendo, pero quizás debería comprender también a su marido, él lo ha hecho por un bien común.[[Entiendo el malentendido, quizás debería comprenderle usted a él.]]
+
+
+:: Ya veo ya…[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: ¿Qué ve? Yo no lo único que veo es la cagada que ha hecho mi marido.
+Burro: Ya te pedí perdón cariño.
+Tranquilícese, todo tiene solución en la vida.[[Tranquilícese, todo tiene solución en la vida.]]
+Quizás habría que pasar página, el dinero no lo es todo.[[Quizás habría que pasar página, el dinero no lo es todo.]]
+Quizás podrían comprar otra vez el oro.[[Quizás podrían comprar otra vez el oro.]]
+
+
+:: Quizás habría que pasar página, el dinero no lo es todo.[MAL D.ENFADADO I.NORMAL]
+Wyverna: No nos importa el dinero, ahora tenemos de sobra, lo que importa es mi oro.
+Quizás podrían comprar otra vez el oro.[[Quizás podrían comprar otra vez el oro.]]
+
+
+:: Quizás podrían comprar otra vez el oro.[MAL D.ENFADADO I.NORMAL]
+Wyverna: ¿Nos esta vacilando? Ese oro no es comprado, viene de generación en generación ¡Es sagrado!
+Entiendo, ¿No podría conseguir más como hicieron sus antepasados?[[Entiendo, ¿No podría conseguir más como hicieron sus antepasados?]]
+Lo comprendo totalmente, pero no lo veo tan grave.[[A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.]]
+Lo comprendo, pero quizás debería entender usted a su marido.[[Entiendo el malentendido, quizás debería comprenderle usted a él.]]
+
+
+:: Tranquilícese, todo tiene solución en la vida.[BIEN D.ENFADADO I.NORMAL]
+Wyverna: Esto no lo tiene doctor, ese oro nunca va a volver.
+Burro: Que dramática es siempre.
+Quizás habría que pasar página, el dinero no lo es todo.[[Quizás habría que pasar página, el dinero no lo es todo.]]
+Quizás podrían comprar otra vez el oro.[[Quizás podrían comprar otra vez el oro.]]
+
+
+:: Entiendo, ¿No podría conseguir más como hicieron sus antepasados?[MAL D.ENFADADO I.NORMAL]
+Wyverna: Pues claro que no doctor, ese oro ya no se encuentra en ningún lado.
+Sigo sin verlo tan grave.[[A ver, tampoco lo veo tan grave, simplemente ha hecho lo que debía.]]
+
+
+:: Le comprendo, pero a mi mientras me paguen con dinero…[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: ¿Qué clase de respuesta es esa? Usted es un sinvergüenza.
+Perdone, pero grave no sería la palabra, simplemente debería pasar página.[[Grave no sería la palabra, simplemente debería pasar página.]]
+Perdone, le entiendo perfectamente, pero quizás debería comprender a su marido.[[Entiendo el malentendido, quizás debería comprenderle usted a él.]]
+
+
+:: Grave no sería la palabra, simplemente debería pasar página.[BIEN D.ENFADADO I.NORMAL]
+Wyverna: No puedo pasar página, ha vendido el oro de mi familia, es inadmisible.
+Le entiendo perfectamente, pero quizás debería comprender a su marido.[[Entiendo el malentendido, quizás debería comprenderle usted a él.]]
+
+
+:: Cristo siempre perdona a los pecadores, recuérdelo.[MAL D.ENFADADO I.SORPRENDIDO]
+Wyverna: Que mierda importa cristo aquí, ha ofendido a toda mi familia.
+Burro: Menuda exagerada es siempre.
+Le está diciendo que ha sido sin querer, debería perdonarle.[[Le esta diciendo que ha sido sin querer, debería perdonarle.]]
+Quizás deberían hablarlo ente ustedes.[[Quizás deberían hablarlo ente ustedes.]]
+
+
+:: Le esta diciendo que ha sido sin querer, debería perdonarle.[MAL D.ENFADADO+ D.ENFADADO I.NORMAL]
+Wyverna: Me da igual lo que diga, se lo deje muy claro y ha hecho lo que ha querido.
+Burro: Compasión cariño.
+Quizás deberían hablarlo ente ustedes.[[Quizás deberían hablarlo ente ustedes.]]
+Quizás debería escuchar lo que él dice.[[C]]
+Me gustaría escuchar su versión, usted no ha parado de hablar en lo que llevamos de sesión.[[C]]
+
+
+:: Quizás deberían hablarlo ente ustedes.[BIEN D.ENFADADO I.SORPRENDIDO]
+Wyverna: Yo no pienso hablarlo, lo que ha hecho es muy grave.
+Burro: Siempre tan cortante.
+Me gustaría escuchar su versión, usted no ha parado de hablar en lo que llevamos de sesión.[[C]]
+
+
+:: C[BIEN D.SORPRENDIDO I.ENFADADO]
+Wyverna: El no tiene nada que dec…
+Burro: Mire doctor, me he estado callando pero ya voy a explotar, yo hice lo que pensé que sería mejor para nuestra familia, siempre tenía todo el oro tirado por la casa sin darle uso. Ahora gracias a mi somos ricos.
+Dios mío si que tenia guardado dentro si…[[Dios mío si que tenia guardado dentro si…]]
+Pues ya podrían pagarme más…[[Pues ya podrían pagarme más…]]
+Le comprendo, pero quizás ha ofendido a su mujer.[[Le comprendo, pero quizás ha ofendido a su mujer.]]
+Le comprendo y no entiendo porque se enfada ella, ahora sois ricos.[[Le comprendo y no entiendo porque se enfada ella, ahora sois ricos.]]
+
+:: Dios mío si que tenia guardado dentro si…[I.ENFADADO MAL D.SORPRENDIDO]
+Burro: Doctor estoy en serio, ya estoy harto de esta mujer.
+Wyverna: Pero bue..
+Burro: Cállate ahora voy a hablar yo.
+Que mala leche tienen los burros cuando quieren…[[Que mala leche tienen los burros cuando quieren…]]
+Le entiendo, pero no piensa que ha podido ofender a su mujer.[[Le comprendo, pero quizás ha ofendido a su mujer.]]
+
+:: Pues ya podrían pagarme más…[I.ENFADADO D.SORPRENDIDO MAL]
+Burro: Doctor por favor céntrese, ahora soy yo quien me he enfadado.
+Le comprendo, pero quizás ha ofendido a su mujer.[[Le comprendo, pero quizás ha ofendido a su mujer.]]
+
+
+:: Le comprendo, pero quizás ha ofendido a su mujer.[I.ENFADADO D.SORPRENDIDO BIEN]
+Burro: ¿Ofenderla? La he hecho rica, dígame usted quien se ofendería con eso.
+A ver el dinero no lo es todo.[[A ver el dinero no lo es todo.]]
+Pero ha perdido el oro de la familia de su mujer.[[Pero ha perdido el oro de la familia de su mujer.]]
+La verdad que nadie, le comprendo y no entiendo porque se enfada ella, ahora sois ricos.[[Le comprendo y no entiendo porque se enfada ella, ahora sois ricos.]]
+
+
+:: Le comprendo y no entiendo porque se enfada ella, ahora sois ricos.[I.ENFADADO D.SORPRENDIDO BIEN]
+Burro: Es incomprensible, soluciono la situación de mierda que teníamos y ahora me viene con no seque de su familia.
+La familia es sagrada.[[La familia es sagrada]]
+Veo bastante turbio esto, quizás deberían separarse y se acabarían los problemas.[[Veo bastante turbio esto, quizás deberían separarse y se acabarían los problemas.]]
+Le entiendo, pero su mujer no creo que le perdone, ha ofendido a su familia.[[Le entiendo, pero su mujer no creo que le perdone, ha ofendido a su familia.]]
+No veo solución aquí.[[No veo solución aquí.]]
+
+:: Que mala leche tienen los burros cuando quieren…[I.ENFADADO D.SORPRENDIDO MAL]
+Burro: Mira estoy tan harto, que no importa ni que su comentario haya sido racista. Deme una solución.
+A ver ahora quizás comprendo más a su mujer.[[A ver ahora quizás comprendo más a su mujer.]]
+Le entiendo, pero no piensa que ha podido ofender a su mujer.[[Le comprendo, pero quizás ha ofendido a su mujer.]]
+
+
+:: A ver ahora quizás comprendo más a su mujer.[I.ENFADADO D.SORPRENDIDO MAL]
+Burro: ¿Cómo que comprende a mi mujer? ¿La hago rica y me lo paga con esas malas maneras?
+Es cierto, ¿pero no piensa que ha podido ofenderla?[[Le comprendo, pero quizás ha ofendido a su mujer.]]
+
+
+:: A ver el dinero no lo es todo.[I.ENFADADO D.SORPRENDIDO BIEN]
+Burro: Claro que lo es todo, casi no teníamos ni para comer, pero la casa llena de oro que no falte.
+Pero ha perdido el oro de la familia de su mujer.[[Pero ha perdido el oro de la familia de su mujer.]]
+Le comprendo y no entiendo porque se enfada ella, ahora sois ricos.[[Le comprendo y no entiendo porque se enfada ella, ahora sois ricos.]]
+
+
+:: Pero ha perdido el oro de la familia de su mujer.[I.ENFADADO D.SORPRENDIDO]
+Burro: Que importa el oro de su familia si no teníamos para comer.¿Usted está pensando con la cabeza?
+Le comprendo y no entiendo porque se enfada ella, como dice ahora sois ricos.[[Le comprendo y no entiendo porque se enfada ella, ahora sois ricos.]]
+
+
+:: La familia es sagrada[I.ENFADADO D.SORPRENDIDO MAL]
+Burro: Me importa una mierda su familia. 
+No veo solución aquí.[[No veo solución aquí.]]
+Veo bastante turbio esto, quizás deberían separarse y se acabarían los problemas.[[Veo bastante turbio esto, quizás deberían separarse y se acabarían los problemas.]]
+Le entiendo, pero su mujer no creo que le perdone, ha ofendido a su familia.[[Le entiendo, pero su mujer no creo que le perdone, ha ofendido a su familia.]]
+
+:: Veo bastante turbio esto, quizás deberían separarse y se acabarían los problemas.[I.ENFADADO D.SORPRENDIDO BIEN]
+Burro: No lo diga dos veces.
+A ver lo mejor sería que lo habl…[[A ver lo mejor sería que lo habl…]]
+
+
+:: Le entiendo, pero su mujer no creo que le perdone, ha ofendido a su familia.[I.ENFADADO D.SORPRENDIDO BEIN BIEN]
+Burro: no quiero que me perdone.
+No veo solución aquí entonces.[[No veo solución aquí.]]
+
+
+:: No veo solución aquí.[I.ENFADADO D.SORPRENDIDO BIEN]
+Burro: Yo tampoco.
+Pues quizás deberían separarse y se acabarían los problemas.[[Veo bastante turbio esto, quizás deberían separarse y se acabarían los problemas.]]
+
+
+
+:: A ver lo mejor sería que lo habl…[I.ENFADADO D.SORPRENDIDO BIEN]
+Burro: No hable más, ya está decidido, te dejo ahora mismo cariño, hasta nunca.
+Wyverna: ¡¿Qué acaba de pasar?! Usted lo ha jodido todo.
+¡Espera cariño vuelve!
+Se van.
+

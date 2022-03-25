@@ -1,0 +1,172 @@
+:: StoryTitle
+Dos Orcos. Sesión 3
+
+:: UserScript[script]
+
+
+:: UserStylesheet[stylesheet]
+
+
+:: Diálogo 1[START]
+...
+Otro día mas en el paraíso [[Otro día mas en el paraíso]]
+Que tal señores Arrancaoidos? (hoy si que si) [[Que tal señores Arrancaoidos? (hoy si que si]]
+Hoy no hago ningún chiste [[Hoy no hago ningún chiste]]
+Hoolaa, espero que hoy vaya mejor la cosa... [[Diálogo 2]]
+
+:: Otro día mas en el paraíso[MAL D.ENFADADO I.ENFADADO]
+Orca: Uy si, en el cielo...
+Orco: Bueno empezamos bien...
+Venga arriba esos animos! [[Venga arriba esos animos!]]
+Bueno bueno, vaaaaamos a empezar [[Diálogo 2]] 
+Con esta actitud no se puede venir ehhhh [[Diálogo 2]]
+Joder con la algría de la huerta... [[Diálogo 2]] 
+
+:: Que tal señores Arrancaoidos? (hoy si que si[MAL D.SORPRENDIDO I.ENFADADO]
+Orco: CASI! Pero no das una ehh
+Orca: Esto me parece casi insultante eh. 
+De verdad que no se en que me equivoco [[Diálogo 2]] 
+No se aprecia el esfuerzo... [[Diálogo 2]] 
+Es dificil vuestro apellido vale [[Diálogo 2]] 
+Acerté la primera vez, no se como se me ha podido olvidar [[Diálogo 2]]
+
+:: Hoy no hago ningún chiste[BIEN D.SORPRENDIDO I.SORPRENDIDO]
+Orca: Menos mal! 
+Orco: Les estaba empezando a coger el gusto...
+Ah bueno en ese caso: Mira solo nos faltan dos para completar la Party! jejejeje [[Ah bueno en ese caso: Mira solo nos faltan dos para completar la Party! jejejeje]]
+Una pena, pero he dejado a un lado mi carrera como humorista [[Diálogo 2]] 
+Lo bueno, si corto, dos veces bueno [[Diálogo 2]] 
+Siempre se van los mejores... [[Diálogo 2]] 
+
+:: Diálogo 2[I.NORMAL D.ENFADADO]
+Bueno, contadme que tal fue con lo que hablamos el último día. 
+Orca: Pues fenomenal la verdad
+Orco: Habla por tí querida
+Madre mia no dais una [[Madre mia no dais una]]
+Ohhhhh, se ha puesto triste el orco?? [[Ohhhhh, se ha puesto triste el orco??]]
+A ver, que habés liado ahora? [[Dialogo 3]]
+No creo que hayáis podido empeorar la situacion... [[No creo que hayáis podido empeorar la situacion...]]
+
+:: Venga arriba esos animos![MAL D.ENFADADO I.ENFADADO]
+Orco: Mejor callate 
+Vale vale madre mia [[Diálogo 2]] 
+
+:: Ah bueno en ese caso: Mira solo nos faltan dos para completar la Party! jejejeje[MAL D.ENFADADO I.ENFADADO]
+Orco: La verdad es que habría mejor que te callases...
+Orca: Pensaba que me nos íbamos a librar...
+No si ya sabia yo que no tenía que decir nada... [[Diálogo 2]] 
+
+:: Madre mia no dais una[MAL I.SORPRENDIDO D.SORPRENDIDO]
+Orco: Pero si esto fue idea tuya! 
+Orca: Eso eso, nostros no queríamos hacer esto!
+Como que no, a mi no me echéis vuestros marrones! [[Como que no, a mi no me echéis vuestros marrones!]]
+Seguro que no lo habéis hecho bien... [[Dialogo 3]]
+Veis como no se os puede dejar solos... [[Dialogo 3]] 
+Algo se podrá sacar de la que habéis liado [[Dialogo 3]] 
+
+:: Ohhhhh, se ha puesto triste el orco??[D.SORPRENDIDO I.SORPRENDIDO MAL]
+Orco: COMO OSAS HABLARLE ASÍ A UN VALEROSO GUERRERO ORCO
+Orca: Ohhhh, se ha enfadado el orco???
+CHOCA (Chocas los 5 con Orca) [[Dialogo 3]] 
+La primera vez que me sigues una broma... [[Dialogo 3]] 
+Mari, no estamos aqui para atacarnos... (Disimulado choque de puños con Orca) [[Dialogo 3]] 
+Bueno basta de bromas, vamos al lío [[Dialogo 3]] 
+
+:: Dialogo 3[D.NORMAL I.NORMAL]
+A ver, contadme qué habéis hecho
+Orca: Pues al final decidimos que yo me fuese de saqueo y Claudio se quedase en casa haciéndo algo que me gusta a mi. 
+Orco: La peor idea de todas... 
+LOS SAQUEOS TIENEN QUE SER LA POLLA [[LOS SAQUEOS TIENEN QUE SER LA POLLA]]
+Así que al final no era tan malo saquear... [[Dialogo 4]]
+No te lo has pasado bien haciendo madalenas Claudio [[No te lo has pasado bien haciendo madalenas Claudio]]
+Como de malo ha podido ser para tí Claudio? [[No te lo has pasado bien haciendo madalenas Claudio]]
+
+:: No creo que hayáis podido empeorar la situacion...[BIEN D.SORPRENDIDO I.FELIZ]
+Orca: La verdad es que yo me lo he pasado de maravilla. 
+Orco: Pues que suerte!. Ha sido horrible
+Tampoco hay que ser drámatico orco... [[Dialogo 3]] 
+Vaya sorpresa con la orca [[Dialogo 3]] 
+Bueno bueno, vaya cambio de tornas [[Dialogo 3]] 
+A ver a ver, que ha sido tan horrible? [[Dialogo 3]] 
+
+:: Como que no, a mi no me echéis vuestros marrones![MAL I.ENFADADO D.ENFADADO]
+Orco: Pero bueno, no se ni para que te hacemos caso
+Orca: De verdad que no se que hacemos aquí
+Dramáticos... [[Dialogo 3]] 
+VENÍS PORQUE NO OS VALÉIS POR VOSOTROS MISMOS [[Dialogo 3]] 
+Lo que hacéis aquí es salvar vuestro matrimonio... [[Dialogo 3]] 
+Venga, que seguro que no ha sido para tanto... [[Dialogo 3]] 
+
+:: LOS SAQUEOS TIENEN QUE SER LA POLLA[I.SORPRENDIDO BIEN D.FELIZ]
+Orco: Y lo son, es lo que llevaba tiempo intentando recordarle a Mari
+Orca: Es verdad que hacía tiempo que no lo pasaba tan bien. Pero es una diversión que es muy cruel, sigo pensando que deberíamos apartarnos de ella.
+Nooooo, pero los saqueooooossss.... [[Dialogo 4]]
+No me lo puedo creer [[Dialogo 4]]
+Osea que sigues sin apreciar las tradiciones [[Dialogo 4]]
+Parece que esto no ha servidon de nada entonces [[Dialogo 4]]
+
+:: Dialogo 4[D.NORMAL I.NORMAL]
+Entonces, Mari, no eres capaz de apreciar la importancia de los saqueos para Claudio?
+Orca: Es divertido? Si, pero sigue siendo una barbaridad. 
+Orco: Vamos Mari, te lo has pasado bien, no podemos llegar a un acuerdo?
+Asi no se llega a ningún lado Mari [[Asi no se llega a ningún lado Mari]]
+Vamos a intentar solucionar las cosas, por que no intentamos de verdad llegar a un acuerdo [[Dialogo 5]]
+Esto no va a ningún lado así... [[Asi no se llega a ningún lado Mari]]
+Pues nada estamos en las mismas [[Asi no se llega a ningún lado Mari]]
+
+:: No te lo has pasado bien haciendo madalenas Claudio[MAL I.SORPRENDIDO D.SORPRENDIDO]
+Orco: No he hecho magdalenas, de verdad que eso no es lo único que hace Mari. Me fui al gimnasio a hacer spinning
+Orca: Anda mira que bien, así haces ejercicio pero sin matar a nadie. 
+Orco: Que gracia hay en hacer ejercicio sin matar a nadie?
+DI QUE SI CLAUDIO, POR LA HORDA [[DI QUE SI CLAUDIO, POR LA HORDA]]
+Tan malo no pudo ser la clase de spinning [[Tan malo no pudo ser la clase de spinning]]
+Entonces algo habremos aprendido de esto no? [[Dialogo 4]] 
+Las clases de spinning estan genial para el cardio [[Dialogo 4]] 
+
+:: DI QUE SI CLAUDIO, POR LA HORDA[D.FELIZ I.SORPRENDIDO BIEN]
+Orco: AHHHHHHGGGGGGG!
+Orca: A esto venimos...
+Es que si no matas a nadie... [[Dialogo 4]] 
+Esta claro que Claudio ama saquear mas que cualquier cosa... [[Dialogo 4]] 
+Bueno, tampoco nos vengamos arriba [[Dialogo 4]] 
+Ojala saquear... [[Dialogo 4]] 
+
+:: Tan malo no pudo ser la clase de spinning[D.ENFADADO I.NORMAL BIEN]
+Orco: Espantoso doctor, espantoso, nada más que sudando y sufriendo, y ni si quiera me dejaron sacar mi hacha. 
+Suena horrible [[Dialogo 4]] 
+Bastante cruel que no te dejasen sacar el hacha [[Dialogo 4]] 
+No suena tan mal, pero bueno [[Dialogo 4]] 
+Uy siiii, espantoso... [[Dialogo 4]] 
+
+:: Asi no se llega a ningún lado Mari[MAL I.ENFADADO D.FELIZ]
+Orca: No se, sigo sin querer perpetuar esta barbarie, por muy divertida qeu sea. 
+Orco: Podemos ir los dos juntos de vez en cuando
+Escucha a ese pedazo de hombretón Mari [[Dialogo 5]] 
+Que mejor para arreglar vuestra relación que matar a unos cuantos inocentes una vez al mes? [[Dialogo 5]] 
+Es verdad que es una barbarie, pero, y que? [[Dialogo 5]] 
+Mari, la vida son dos día, que mejor que acortarle la vida a otra persona? [[Dialogo 5]] 
+
+:: Dialogo 5[D.NORMAL I.NORMAL]
+Venga que casi lo tenemos, vamos a llegar a un acuerdo
+Orco: Vamos Mari, vayámonos una vez al mes de saqueo
+Orca: No se, no se...
+VAMONOS TU Y YO DE SAQUEO CLAUDIO, TE AMO!! [[VAMONOS TU Y YO DE SAQUEO CLAUDIO, TE AMO!!]]
+Vamos Mari, es una buena idea [[Vamos Mari, es una buena idea]]
+Tampoco hace falta que hagas algo que no quieres Mari [[Tampoco hace falta que hagas algo que no quieres Mari]]
+Si al final la vais a liar igual [[Si al final la vais a liar igual]]
+
+:: VAMONOS TU Y YO DE SAQUEO CLAUDIO, TE AMO!![D.FELIZ I.SORPRENDIDO]
+Orco: AL FIN! Pensaba que nunca me lo pedirías. 
+Yo si que aprecio un buen saqueo, vivamos esta fantasía juntos
+
+:: Vamos Mari, es una buena idea[D.FELIZ I.NORMAL]
+Orca: Está bien, probaremos esto un tiempo. Pero si sale mal que sepas que el último saqueo será a tu consulta. 
+Me parece justo. 
+
+:: Tampoco hace falta que hagas algo que no quieres Mari[D.ENFADADO I.SORPRENDIDO]
+Orca: Pues sabes que? Tienes razón. No quiero, no me gusta y tienes que aceptarlo Claudio. 
+Orco: Tu también deberías aceptar que sea lo que a mi me gusta. No se si esto va a funcionar, adió doctor. 
+
+:: Si al final la vais a liar igual[D.ENFADADO I.ENFADADO]
+Orco: Mira se acabó, esto no ha servido de nada, ya resolveremos esto por nuestra cuenta. 
+Orca: Si Claudio vámonos. Y que sepas doctor que te vamos a dar 0 estrellas en la reseña de internet

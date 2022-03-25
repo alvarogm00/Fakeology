@@ -1,0 +1,183 @@
+:: StoryTitle
+Dos Orcos. Sesion 2
+
+:: UserScript[script]
+
+
+:: UserStylesheet[stylesheet]
+
+
+:: Dialogo 1[START]
+...
+Buenos dias señores Rebanalóbulos [[Buenos dias señores Rebanalóbulos]]
+TODO POR LA HORDA! [[Dialogo 2]]
+Otro día en la dungeon... [[Otro día en la dungeon...]]
+Queeee tal como estan mis orcos favoritos [[Queeee tal como estan mis orcos favoritos]]
+
+:: Buenos dias señores Rebanalóbulos[MAL D.ENFADADO I.ENFADADO]
+Orco: Otra vez? Ni te apuntas nuestros nombres?
+Orca: Por que seguimos viniendo aqui...
+Quedarse callado como si todo esuviese yendo perfectamente [[Dialogo 2]] 
+Bueno bueno ya veo que con ustedes los chistecitos no entran bien [[Dialogo 2]] 
+Rebanalóbulos, Cortaorejas, tomeito, tomato... [[Dialogo 2]] 
+El ambiente esta tenso... [[Dialogo 2]] 
+
+:: Dialogo 2[I.NORMAL D.NORMAL]
+En fin, habéis pensado en lo que hablamos? Lo que dijimos de buscar un punto medio?
+Orco: Pues bueeno....
+Orca: No no ahora no te pongas así.
+Que ya te has dejado mangonear calzonazos! [[Que ya te has dejado mangonear calzonazos!]]
+A ver, contadme mis queridos asesinos de infantes [[A ver, contadme mis queridos asesinos de infantes]]
+Mari, quedamos en hablar las cosas... [[Mari, quedamos en hablar las cosas...]]
+Contadme que mierdas habéis hecho ahora [[Dialogo 3]] 
+
+:: Otro día en la dungeon...[MAL D.SORPRENDIDO I.SORPRENDIDO]
+Orco: Otro dia mas en el club de la comedia?
+Paraba papa Paraba papa Papapapapapa [[Paraba papa Paraba papa Papapapapapa]] 
+Hay que practicar que si no me oxido [[Hay que practicar que si no me oxido]]
+Mi sueño es poner un micro en la consulta y hacer monólogos [[Dialogo 2]] 
+Espero que esto no me gane un hachazo en la cabeza [[Dialogo 2]] 
+
+:: Queeee tal como estan mis orcos favoritos[MAL D.NORMAL I.SORPRENDIDO]
+Orca: A este que le pasa?
+Orco: Drogas, seguro que drogas
+Perdone usted pero yo no me drogo entre diario [[Dialogo 2]] 
+Que poco se aprecia el esfuerzo... [[Dialogo 2]] 
+Nos hemos levantado con el pie izquierdo ehh [[Dialogo 2]] 
+No se para que digo nada... [[Dialogo 2]] 
+
+:: Paraba papa Paraba papa Papapapapapa[MAL D.ENFADADO I.ENFADADO]
+Orca: Se la ha ido la cabeza...
+Orco: No se si deberíamos volver aqui...
+Bueno, se acabó la broma vamos al turrón [[Dialogo 2]] 
+
+:: Hay que practicar que si no me oxido[BIEN D.NORMAL I.NORMAL]
+Orca: No se puede óxidar lo que nunca ha estado en buen estado
+Vas a dónde duele... [[Dialogo 2]] 
+
+:: Que ya te has dejado mangonear calzonazos![MAL D.ENFADADO I.SORPRENDIDO]
+Orco: EH! YO SOY UN ORGULLOSO GUERRERO DEL CLAN CORTAOREJAS!!
+Orca: Calla Claudio!
+Orco: Perdón...
+Lo que decía, calzonazos.. [[Dialogo 3]] 
+Mari, por favor! [[Dialogo 3]] 
+Si si, muy orgulloso, pero a ver que habéis hablado [[Dialogo 3]] 
+No hemos venido aqui a pelarnos... [[Dialogo 3]] 
+
+:: A ver, contadme mis queridos asesinos de infantes[MAL D.NORMAL I.SORPRENDIDO]
+Orca: Eh, hace años que no mato a una cria de otra especie
+Orco: Eso es algo que hacemos solo en ocasiones especiales, está muy estigmatizado
+Si si, pero que los matais igual [[Dialogo 3]] 
+
+:: Mari, quedamos en hablar las cosas...[BIEN D.NORMAL I.FELIZ]
+Orca: Si las hemos hablado perfectamente, no se de qué se queja
+Orco: Bueno...
+Claramente no lo habeis hablado [[Dialogo 3]] 
+Mari, veo indicios de mangoneamiento por tu parte [[Dialogo 3]] 
+Claudio, por favor, cuentame como te sientes [[Dialogo 3]] 
+Madre mia con la orca, menos mal que estoy soltero... [[Dialogo 3]] 
+
+:: Dialogo 3[D.NORMAL I.NORMAL]
+Contadme, habéis conseguido llegar a un acuerdo?
+Orca: Hemos quedado en que Claudio se irá de saqueo una vez al mes
+Orco: Si... hemos...
+Eso no es muy taki taki rumba de tu parte Mari [[Dialogo 4]]
+Eso es un punto medio para los orcos? [[Eso es un punto medio para los orcos?]]
+Si es que no se os puede dejar solos... [[Si es que no se os puede dejar solos...]]
+No se para que venís aquí... [[No se para que venís aquí...]]
+
+:: Dialogo 4[D.NORMAL I.NORMAL]
+Esta claro que no habéis llegado a un punto medio, y que Claudio no está de acuerdo con esto. Así que vamos a ver, Mari, por qué no quieres que Claudio vaya un poco mas a saquear?
+Orca: Pues porque no debería de ir ni un sólo día, esto es absurdo. 
+Orco: Son nuestras tradiciones Mari, por qué no lo entiendes?
+Cuentame como es eso de saquear que suena guapo [[Cuentame como es eso de saquear que suena guapo]]
+Las tradiciones estan para respetarlas [[Las tradiciones estan para respetarlas]]
+Claudio, no puedes dejar de lado las cosas que te hacen feliz [[Claudio, no puedes dejar de lado las cosas que te hacen feliz]]
+Por que no probamos una aproximación diferente? [[Dialogo 5]]
+
+:: Eso es un punto medio para los orcos?[BIEN D.NORMAL I.NORMAL]
+Orco: Nuestra raza tiene dificultades en salir de los extremos la verdad, no solemos buscar el punto medio. 
+Solo los sith piensan en absolutos [[Solo los sith piensan en absolutos]]
+Si solo tuvieseis dificultades en eso...[[Si solo tuvieseis dificultades en eso...]]
+Bueno pero para eso estamos aqui [[Dialogo 4]] 
+Pues entonces esta sesión sera extremadamente cara jejeejj, en fin... [[Dialogo 4]] 
+
+:: Si es que no se os puede dejar solos...[MAL D.ENFADADO I.SORPRENDIDO]
+Orco: Oye que nosotros podemos valernos muy bien solitos
+Orca: Eso, a ver que te has creido
+Os dejo solos y me quemais la oficina [[Os dejo solos y me quemais la oficina]]
+Me creo que os hace falta mi ayuda [[Dialogo 4]] 
+Si tan bien os valeis que haceis aqui? [[Dialogo 4]]
+
+:: No se para que venís aquí...[MAL D.ENFADADO I.ENFADADO]
+Orca: Eso le sigo diciendo yo a Claudio
+Orco: A este paso no volvemos
+Es que no se para que digo nada [[Dialogo 4]]
+Si no volvéis vuestro matrimonio se ira por le retrete MUAJAJAJAJAJA...perdón [[Dialogo 4]] 
+
+:: Solo los sith piensan en absolutos[BIEN D.ENFADADO I.SORPRENDIDO]
+Te he fallado Claudio...
+Orco: Debí intuir que los psicólogos querrían hacerse con el poder
+Orca: Basta ya putos frikis
+No sabes apreciar el arte... [[Dialogo 4]] 
+
+:: Si solo tuvieseis dificultades en eso...[MAL D.ENFADADO I.NORMAL]
+Orco: Una broma mas y no volvemos
+Vale vale [[Dialogo 4]] 
+
+:: Os dejo solos y me quemais la oficina[MAL D.NORMAL I.ENFADADO]
+Orca: Eso es un estereotipo..
+Orco: Tiene razón Mari, tiene razón
+Bueno, al caso que nos ocupa [[Dialogo 4]] 
+
+:: Cuentame como es eso de saquear que suena guapo[BIEN D.FELIZ I.NORMAL]
+Orco: Es lo mas glorioso que hay. Llegas a una aldea, hacha en una mano, antorcha en la otra... Pegar hachazos, robar el oro de los inocentes, que mar sus casas, tomarte unas cervecillas después, es que es lo mejor que hay. 
+Uuuuhhhhhh, suena interesante...
+Orca: A ver si ahora te va a molar esto a ti también...
+Eh, no no, para nada, yo solo pregunto por afán profesional... (guiñas el ojo al orco) [[Dialogo 5]] 
+Mari por favor, yo no soy un salvaje como vosotros [[Dialogo 5]] 
+Suena a barbárico [[Dialogo 5]] 
+
+:: Las tradiciones estan para respetarlas[MAL D.SORPRENDIDO I.NORMAL]
+Orca: Igual que el toreo se cambió por el toreo robótico esto se puede cambiar también
+Orco: Si hombre, y que saqueo? Casas de muñecas?
+Orca: Pues con como saqueas, seguro que te va mejor...
+DAAAAAAAAAAAMMMMMMMNNNN!!!!!! [[Dialogo 5]] 
+A ver tampoco vayamos a lo personal... (chocas puño con Mari) [[Dialogo 5]] 
+Es verdad que no seria igual de gustoso que arrasar una aldea de verdad [[Dialogo 5]] 
+EL SAQUEO SE RESPETA [[Dialogo 5]] 
+
+:: Claudio, no puedes dejar de lado las cosas que te hacen feliz[BIEN I.ENFADADO D.NORMAL]
+Orca: Se supone que yo debería hacerle lo suficientemente feliz
+Orco: Y lo haces, pero no puedes ser lo único que me haga feliz
+(Por lo bajo) No se como... [[Dialogo 5]] 
+Es importante tener hobbies, tu tienes alguno? [[Es importante tener hobbies, tu tienes alguno?]]
+Al final es un hobby como cualquier otro, pero bueno...[[Dialogo 5]]
+
+:: Dialogo 5[D.NORMAL I.NORMAL]
+Vamos a probar otra cosa:
+Mari, por que no pruebas a irte con Claudio al próximo saqueo? [[Mari, por que no pruebas a irte con Claudio al próximo saqueo?]]
+Claudio, por que no pruebas a hacer algo que le guste a Mari en vez de ir al próximo saqueo? [[Claudio, por que no pruebas a hacer algo que le guste a Mari en vez de ir al próximo saqueo?]]
+Por que no se va Mari al próximo saqueo, y Claudio a hacer uno de los hobbies de Mari? [[Por que no se va Mari al próximo saqueo, y Claudio a hacer uno de los hobbies de Mari?]]
+
+:: Es importante tener hobbies, tu tienes alguno?[BIEN D.NORMAL I.FELIZ]
+Orca: Por supuesto, voy al gimnasio a hacer crossfit, hago madalenas veganas, me he visto 14 temporadas de Anatomia de Orcagrey... pero no voy por ahí arrasando aldeas ajenas. 
+Uuhhh, que original todo... [[Dialogo 5]]
+No puedes juzgar sus hobbies si el no juzga los tuyos [[Dialogo 5]]
+
+:: Mari, por que no pruebas a irte con Claudio al próximo saqueo?[D.NORMAL I.SORPRENDIDO]
+Orca: Uy no se yo. Hace mucho que ya no hago esas cosas. 
+Orco: Venga Mari, seguro que es divertido.
+Orca: Bueno no se, ya veremos. 
+Orco: Me vale, muchas gracios Doctor, nos vamos. 
+
+:: Claudio, por que no pruebas a hacer algo que le guste a Mari en vez de ir al próximo saqueo?[D.SORPRENDIDO I.ENFADADO]
+Orco: Quieres que haga madalenas?
+Orca: No solo hago eso anormal
+Orco: Vale vale, pues lo que sea
+Orca: Ya veras que nos lo pasamos genial. Nos vemos Doctor. 
+
+:: Por que no se va Mari al próximo saqueo, y Claudio a hacer uno de los hobbies de Mari?[D.NORMAL I.NORMAL]
+Orco: Uf no se yo, que se vaya sola de saqueo?
+Orca: Que pasa? Hace años me iba de saqueo mucho 
+Orco: ya ya pero, uf no se. Bueno, te diremos que tal ha ido Doctor.

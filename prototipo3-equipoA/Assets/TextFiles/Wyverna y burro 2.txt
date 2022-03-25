@@ -1,0 +1,172 @@
+:: StoryTitle
+D.WYVERNA Y I.BURRO SESIÓN 2
+
+:: UserScript[script]
+
+
+:: UserStylesheet[stylesheet]
+
+
+:: Pasaje sin título[START]
+Wyverna: Hola, buenos días.
+Burro: Muy buenas doctor.
+Que paso parejita.[[Que paso parejita]]
+Hola señora dragona y señor burro, encantados.[[Hola señora dragona y señor burro, encantados.]]
+Ey, como va eso.[[Ey, como va eso.]]
+Hola buenas, cuéntenme que tal va todo.[[B]]
+
+:: Que paso parejita[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: Por favor doctor un poco de profesionalidad, no estamos de humor.
+Burro: No la enfade o empezara a echar fuego.
+Alguien se ha levantado con la garra izquierda…[[Alguien se ha levantado con la garra izquierda…]]
+Perdónenme, encantado de recibirles, señora dragona y señor burro.[[Hola señora dragona y señor burro, encantados.]]
+Perdonen, cuéntenme como va todo.[[B]]
+
+
+:: Hola señora dragona y señor burro, encantados.[MAL D.ENFADADO I.SORPRENDIDO]
+Wyverna: ¿Dragona? ¿Burro? ¿Está vacilándonos doctor? Ese comentario ha sido muy racista, además ha ofendido a dos colectivos juntos. 
+Burro: Buena jugada.
+Perdonen, pensé que ya había confianza.[[Perdonen, pensé que ya había confianza]]
+Perdonen, no quería ofenderles.[[Perdonen, no quería ofenderles.]]
+Perdonen, se me ha escapado.[[Perdonen, se me ha escapado.]]
+Perdonen, ha sido un desliz.[[Perdonen ha sido un desliz.]]
+
+:: Ey, como va eso.[MAL D.SORPRENDIDO I.FELIZ]
+Wyverna: No somos su “colegas” doctor, un poco de profesionalidad por favor.
+Perdonen, cuéntenme que tal todo.[[B]]
+
+:: B[BIEN D.NORMAL I.NORMAL]
+Wyverna: Yo no puedo contárselo, que empiece él.
+Burro: Pues mire doctor, usted nos recomendó buscar una niñera, pues bien. La niñera digamos… Que ya no está entre nosotros, fin.
+¿La despedisteis?[[La despedisteis?]]
+
+:: Alguien se ha levantado con la garra izquierda…[MAL D.ENFADADO I.NORMAL]
+Wyverna: ¿Perdone? Doctor acabo de decirle que no estamos de humor, un poco de respeto.
+Burro: Se viene…
+Perdónenme, encantado de recibirles, señora dragona y señor burro.[[Hola señora dragona y señor burro, encantados.]]
+Perdonen, cuéntenme como va todo.[[B]]
+
+:: Perdonen, pensé que ya había confianza[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: No se trata de confianza, esos comentarios no deberían hacerse nunca.
+Es cierto, perdonen, cuéntenme que tal todo desde la ultima vez.[[B]]
+
+:: Perdonen, no quería ofenderles.[BIEN D.NORMAL I.NORMAL]
+Wyverna: Eso espero… 
+Burro: No importa cariño, ha sido sin querer.
+Totalmente, olvidémoslo y cuéntenme que tal va todo.[[B]]
+
+:: Perdonen, se me ha escapado.[D.SORPRENDIDO I.NORMAL MAL]
+Wyverna: No es algo que se le escape a cualquier persona…
+Burro: No pasa nada cariño, olvidémoslo.
+Si por favor, perdonen y cuéntenme que tal va todo.[[B]]
+
+
+:: Perdonen ha sido un desliz.[MAL D.NORMAL I.NORMAL]
+Wyverna: Un desliz muy desafortunado doctor.
+Burro: Olvidémoslo cariño, no pasa nada
+Perdonen, cuéntenme que tal va todo.[[B]]
+
+:: La despedisteis?[BIEN I.NORMAL D.SORPRENDIDO]
+Burro: No exactamente, mi cielito se puso un poco nerviosa discutiendo con ella y bueno…
+Wyverna: No importa doctor, el problema no es ese, mejor pasemos página.
+¿Se la comió?[[¿Se la comió?]]
+No importa, son cosas que pasan.[[No importa, son cosas que pasan.]]
+¿No se atraganto con tanto hueso?[[¿No se atraganto con tanto hueso?]]
+Gajes del oficio.[[Gajes del oficio.]]
+
+:: ¿Se la comió?[MAL D.ENFADADO I.SORPRENDIDO]
+Wyverna: ¡Doctor! He dicho que pasemos página.
+A la cuidadora le costará hacerlo…[[A la cuidadora le costara hacerlo…]]
+Perdone, no importa, son cosas que pasan.[[No importa, son cosas que pasan.]]
+Me sorprende que no se atragantara con tanto hueso.[[¿No se atraganto con tanto hueso?]]
+
+
+:: No importa, son cosas que pasan.[BIEN D.SORPRENDIDO I.NORMAL]
+Wyverna: No son cosas que pasen doctor, no lo recuerde más, he dicho que pasemos página.
+Perdone, cuéntenme cual es el verdadero problema.[[C]]
+
+
+:: ¿No se atraganto con tanto hueso?[MAL D.SORPRENDIDO I.SORPRENDIDO]
+Wyverna: ¿Cómo dice? Ustedes los humanos, son seres insignificantes, como siga haciendo comentarios así, va a ver si me atraganto o no con los suyos. 
+Perdóneme, no quiero morir, cuéntenme cual es el verdadero problema.[[C]]
+
+
+:: Gajes del oficio.[MAL D.SORPRENDIDO I.SORPRENDIDO]
+Wyverna: No entiendo sus dichos prehistóricos doctor, no comente más lo que ha sucedido o volverá a suceder.
+Perdone, cuéntenme cual es el verdadero problema.[[C]]
+
+
+:: A la cuidadora le costara hacerlo…[MAL D.ENFADADO I.NORMAL]
+Wyverna: ¿Qué está intentando? ¿Hacerme sentir mal? Pues recuerde que como me enfade le como también a usted, desgraciado.
+Perdón, perdón, cuéntenme cual es el verdadero problema.[[C]]
+
+:: C[BIEN D.NORMAL I.NORMAL]
+Wyverna: Pues mire doctor, nos gastamos casi todos nuestros ahorros en la niñera y ahora ya casi no nos queda dinero.
+No soy una oficina de empleo.[[No soy una oficina de empleo]]
+Espero que estuviese rica que sino…[[Espero que estuviese rica que sino…]]
+¿Ninguno de los dos trabaja?[[¿Ninguno de los dos trabaja?]]
+
+
+:: No soy una oficina de empleo[MAL D.NORMAL I.NORMAL]
+Wyverna: Le esto pidiendo consejo, no un trabajo.
+Mi consejo es que se busque un trabajo.[[Mi consejo es que se busque un trabajo.]]
+¿Ninguno de los dos trabaja?[[¿Ninguno de los dos trabaja?]]
+
+
+:: Espero que estuviese rica que sino…[MAL D.SORPRENDIDO I.NORMAL]
+Wyverna: ¿Cómo? Le he dicho que quiero olvidarlo y ahora sale con ese comentario doctor, que clase de profesionalidad es esa. Centrese y denos una solucion.
+Perdonenme, ¿Ninguno de los dos trabaja?[[¿Ninguno de los dos trabaja?]]
+
+
+
+:: ¿Ninguno de los dos trabaja?[BIEN D.SORPRENDIDO I.FELIZ]
+Wyverna: Yo no puedo trabajar y mi marido dice que trabaja, pero lo único que hace es salir de fiesta.
+Burro: Perdóneme doctor, yo sí que trabajo. Todos los días salgo en busca de tesoros con mis amigos. Lo único, que al ser autónomo no siempre cobro.
+Freeautonomos[[Freeautonomos]]
+Quizás debería usted conseguir un trabajo también.[[Quizás debería usted conseguir un trabajo también.]]
+¿No tienen ningún tipo de objeto de valor para vender?[[¿No tienen ningún tipo de objeto de valor para vender?]]
+
+:: Mi consejo es que se busque un trabajo.[MAL D.ENFADADO I.SORPRENDIDO]
+Wyverna: Pues si ese es su consejo, podemos irnos ya mismo y olvídese de cobrar.
+No perdonen, tengo muchos más consejos.[[No perdonen, tengo muchos más consejos.]]
+
+:: No perdonen, tengo muchos más consejos.[BIEN D.NORMAL I.NORMAL]
+Wyverna: Díganos pues.
+¿Ninguno de los dos trabaja?[[¿Ninguno de los dos trabaja?]]
+
+:: Quizás debería usted conseguir un trabajo también.[MAL D.ENFADADO I.NORMAL]
+Wyverna: Yo ya trabajo cuidando a los niños, recuerde que ya no tenemos niñera, ni dinero para conseguir otra.
+¿No tienen ningún tipo de objeto de valor para vender?[[¿No tienen ningún tipo de objeto de valor para vender?]]
+
+:: ¿No tienen ningún tipo de objeto de valor para vender?[BIEN D.SORPRENDIDO I.ENFADADO]
+Wyverna: Pues no doctor…
+Burro: Si que tenemos, mi señora tiene llena la casa de artilugios de oro y nunca se quiere deshacer de ellos.
+Tráiganme ese oro y yo se lo muevo por ahí, no hay problema.[[Tráiganme ese oro y yo se lo muevo por ahí, no hay problema.]]
+Quizás deberían llevárselo a Rick, él sabrá si es falso o no.[[Quizás deberían llevárselo a Rick, él sabrá si es falso o no.]]
+Podrían empeñarlo y así no tendrían que venderlo directamente.[[Podrían empeñarlo y así no tendrían que venderlo directamente.]]
+
+:: Tráiganme ese oro y yo se lo muevo por ahí, no hay problema.[MAL D.SORPRENDIDO I.ENFADADO]
+Wyverna: Ni loca doy mi oro a nadie y mucho menos a usted.
+Burro: Cariño por favor, ¿Quieres que nos arruinemos? 
+Quizás deberían llevárselo a Rick, él sabrá si es falso o no.[[Quizás deberían llevárselo a Rick, él sabrá si es falso o no.]]
+Podrían empeñarlo y así no tendrían que venderlo directamente.[[Podrían empeñarlo y así no tendrían que venderlo directamente.]]
+
+
+:: Quizás deberían llevárselo a Rick, él sabrá si es falso o no.[MAL D.SORPRENDIDO I.SORPRENDIDO]
+Wyverna: ¿Cómo que si es falso? Pues claro que no es falso, usted que se piensa.
+Podrían empeñarlo y así no tendrían que venderlo directamente.[[Podrían empeñarlo y así no tendrían que venderlo directamente.]]
+
+
+:: Podrían empeñarlo y así no tendrían que venderlo directamente.[BIEN D.FELIZ I.FELIZ]
+Burro: Es muy buena idea cariño, así podríamos salir del paso hasta que consiga cobrar en condiciones.
+Wyverna: Es buena idea, aunque no me convence. Ya le diremos que tal no ha ido doctor.
+Me temo que se nos acaba el tiempo, espero volver a verles la semana que viene.[[fin]]
+
+:: fin
+Se acaba la sesión.
+
+:: Freeautonomos[MAL I.FELIZ D.ENFADADO]
+Burro: Amen.
+Wyverna: ¿Qué está diciendo? Busque una solución por favor.
+Quizás debería usted conseguir un trabajo también.[[Quizás debería usted conseguir un trabajo también.]]
+¿No tienen ningún tipo de objeto de valor para vender?[[¿No tienen ningún tipo de objeto de valor para vender?]]
